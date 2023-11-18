@@ -13,13 +13,10 @@ post_katrinakaif_3231327392806225791/2023-11-08_06-27-10_UTC.jpg [Diwali is just
 Error(downloadVideo): JSON Query to graphql/query: HTTP error code 401.
 ==== Trying to upload: Trending Katrina Kaif ❤️ latest video #shorts #trending #katrinakaif  ===
 === Video uploding (wait until uploading finish) ===
-Video id SixDo1c8DrI was successfully uploaded.
+Video id vFaeb84YnX8 was successfully uploaded.
 ==== Trying to upload: Trending Katrina Kaif ❤️ latest video #shorts #trending #katrinakaif  ===
 === Video uploding (wait until uploading finish) ===
-Video id ehT7rfbTfzM was successfully uploaded.
+Video id M0rqx3C_AeA was successfully uploaded.
 ==== Trying to upload: Trending Katrina Kaif ❤️ latest video #shorts #trending #katrinakaif  ===
 === Video uploding (wait until uploading finish) ===
-Video id 5dyTFpPrwXU was successfully uploaded.
-==== Trying to upload: Trending Katrina Kaif ❤️ latest video #shorts #trending #katrinakaif  ===
-=== Video uploding (wait until uploading finish) ===
-Video id LdqNZes4FkE was successfully uploaded.
+<HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
