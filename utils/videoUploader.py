@@ -14,7 +14,7 @@ from utils.database import Database
 
 
 def get_authenticated_service():
-    CLIENT_SECRETS_FILE = "src\credentials\client_secret.json"
+    CLIENT_SECRETS_FILE = os.path.abspath("src\credentials\client_secret.json")
     YOUTUBE_UPLOAD_SCOPE = ('https://www.googleapis.com/auth/youtubepartner', 'https://www.googleapis.com/auth/youtube',
                             'https://www.googleapis.com/auth/youtube.force-ssl', 'https://www.googleapis.com/auth/youtube.upload')
     MISSING_CLIENT_SECRETS_MESSAGE = f"""WARNING: Please configure OAuth 2.0"""
