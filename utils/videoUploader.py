@@ -22,7 +22,7 @@ def get_authenticated_service():
     flow = flow_from_clientsecrets(CLIENT_SECRETS_FILE, scope=YOUTUBE_UPLOAD_SCOPE,
                                    message=MISSING_CLIENT_SECRETS_MESSAGE)
 
-    storage = Storage("src\credentials\storage-oauth2.json")
+    storage = Storage(os.path.abspath("src/credentials/storage-oauth2.json"))
     credentials = storage.get()
 
     if credentials is None or credentials.invalid:
