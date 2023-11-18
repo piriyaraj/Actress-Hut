@@ -43,7 +43,7 @@ def uploader(videoPath,user,hour):
     video = videoPath
     userId = videoPath.split("post_")[1].split("_")[0]
     try:
-        title = f"Trending {user}❤️ hot video #shorts #trending #{userId}"
+        title = f"Trending {user} ❤️ hot video #shorts #trending #{userId}"
         description = title + f'''
         {title}
         Welcome to this captivating video featuring an in-depth look into the life and career of the talented actress {user}. Join us as we delve into the remarkable journey of {user}, a true icon in the world of entertainment.
@@ -86,11 +86,12 @@ if len(folderPath) == 0:
     if len(folderPath) == 0:
         exit()
 
-videoPath = [f for f in os.listdir(folderPath[0]) if f.endswith('.mp4')]
-if len(videoPath) == 0:
-    exit()
+# videoPath = [f for f in os.listdir(folderPath[0]) if f.endswith('.mp4')]
+# if len(videoPath) == 0:
+#     exit()
 videoList = [f for f in os.listdir(folderPath[0]) if f.endswith('.mp4')]
 if len(videoList) == 0:
+    shutil.rmtree(folderPath[0])
     exit()
 
 videoPath = os.path.abspath(os.path.join(folderPath[0],videoList[0]))
@@ -104,7 +105,7 @@ status, msg = uploader(videoPath,profile_name,hour)
 if not status:
     DiscordNotification(f"ACTRESS HUB(YT): {msg}")
 else:
-    shutil.rmtree(videoList[0])
+    shutil.rmtree(folderPath[0])
     with open(os.path.abspath("src/time.txt"), "w") as file:
         hour += 3
         if hour ==21:

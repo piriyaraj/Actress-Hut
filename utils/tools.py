@@ -24,29 +24,31 @@ def downloadVideo(username,threshold_time):
     # posts_sorted_by_date = sorted(profile.get_posts(), key=lambda post: post.date,reverse=True)
     # print(len(posts_sorted_by_date))
     flag = False
-    for post in profile.get_posts():
-        # Check if the post was uploaded after the threshold time and if it's not a video
-        if post.date > threshold_time:
-            print(post,post.date,post.is_video)
-            if post.is_video:
-                post_folder = f"post_{username}_{post.mediaid}"
-                os.makedirs(post_folder, exist_ok=True)
-                print(f'          >> downloading: post_{post.mediaid}')
-                flag = L.download_post(post, post_folder)
-                # Save the post caption as a text file
-                caption = post.caption
-                caption_filepath = os.path.join(post_folder, "caption.txt")
-                with open(caption_filepath, "w", encoding="utf-8") as f:
-                    f.write(caption)
-                    
-                profile_name_filepath = os.path.join(post_folder, "profile_name.txt")
-                with open(profile_name_filepath, "w", encoding="utf-8") as f:
-                    f.write(profile_name)
-                time.sleep(5)
-        else:
-            print("Process finished")
-            break
-
+    try:
+        for post in profile.get_posts():
+            # Check if the post was uploaded after the threshold time and if it's not a video
+            if post.date > threshold_time:
+                # print(post,post.date,post.is_video)
+                if post.is_video:
+                    post_folder = f"post_{username}_{post.mediaid}"
+                    os.makedirs(post_folder, exist_ok=True)
+                    print(f'          >> downloading: post_{post.mediaid}')
+                    flag = L.download_post(post, post_folder)
+                    # Save the post caption as a text file
+                    caption = post.caption
+                    caption_filepath = os.path.join(post_folder, "caption.txt")
+                    with open(caption_filepath, "w", encoding="utf-8") as f:
+                        f.write(caption)
+                        
+                    profile_name_filepath = os.path.join(post_folder, "profile_name.txt")
+                    with open(profile_name_filepath, "w", encoding="utf-8") as f:
+                        f.write(profile_name)
+                    time.sleep(5)
+            else:
+                print("Process finished")
+                break
+    except:
+        return flag
     return flag
 
 def fetch_data_as_dict():
@@ -161,7 +163,7 @@ def remove_emojis(text):
 def startDownload():
     instaData = fetch_data_as_dict()
     for instaId,value in instaData.items():
-        print(f"=========> {instaId} <=========== ",end=": ")
+        print(f"=========> {instaId} <=========== ")
         datetime_obj = datetime.strptime(value, '%Y-%m-%dT%H:%M:%S.%f')
         current_time = datetime.now()
         time_difference = current_time - datetime_obj
@@ -169,8 +171,8 @@ def startDownload():
         if hours_difference<=24:
             continue
         status = downloadVideo(instaId,datetime_obj)
-        update({instaId:datetime.now().isoformat()})
         if status :
+            update({instaId:datetime.now().isoformat()})
             return
 
 if __name__ == "__main__":
