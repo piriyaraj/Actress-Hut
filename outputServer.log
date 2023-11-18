@@ -1,4 +1,13 @@
 Database 'data.sqlite3' already exists.
 ==== Trying to upload: Trending Katrina Kaif ❤️ latest video #shorts #trending #katrinakaif  ===
 === Video uploding (wait until uploading finish) ===
-<HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+Video id z5wnMp2gMak was successfully uploaded.
+==== Trying to upload: Trending Katrina Kaif ❤️ latest video #shorts #trending #katrinakaif  ===
+=== Video uploding (wait until uploading finish) ===
+Video id JtilN3JzsqQ was successfully uploaded.
+==== Trying to upload: Trending Katrina Kaif ❤️ latest video #shorts #trending #katrinakaif  ===
+=== Video uploding (wait until uploading finish) ===
+Video id mmSg198Bvd4 was successfully uploaded.
+==== Trying to upload: Trending Katrina Kaif ❤️ latest video #shorts #trending #katrinakaif  ===
+=== Video uploding (wait until uploading finish) ===
+Video id T6UGWGqizgM was successfully uploaded.
