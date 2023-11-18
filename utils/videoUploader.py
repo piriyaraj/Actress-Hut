@@ -181,3 +181,7 @@ def uploadVideos(nameOfId: str, filePath: str, title: str, description: str, key
     time.sleep(10)
     add_video_to_playlist(video_id, tag_id)
     pass
+
+
+if __name__ == '__main__':
+    get_authenticated_service()
