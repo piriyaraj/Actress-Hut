@@ -40,7 +40,7 @@ def DiscordNotification(Msg):
     discord.post(content=Msg)
 
 
-def uploader(videoPath,user,hour):
+def uploader(videoPath, user, hour):
     video = videoPath
     userId = videoPath.split("post_")[1].split("_")[0]
     try:
@@ -63,7 +63,8 @@ def uploader(videoPath,user,hour):
         '''
         keywords = []
         # upload (hour) hours once
-        videoUploader.uploadVideos(user, videoPath, title, description, keywords, hour*60)
+        videoUploader.uploadVideos(
+            user, videoPath, title, description, keywords, hour*60)
 
         return True, "Video was successfully uploaded"
     except Exception as e:
@@ -74,10 +75,11 @@ def uploader(videoPath,user,hour):
 def noVideoHandler():
     tools.startDownload()
 
+
 try:
     with open(os.path.abspath("src/time.txt"), "r") as file:
         hour = int(file.readline())
-except: 
+except:
     hour = 3
 
 folderPath = [file for file in os.listdir() if file.startswith("post_")]
@@ -98,21 +100,22 @@ for i in range(len(folderPath)):
         shutil.rmtree(folderPath[0])
         exit()
 
-    videoPath = os.path.abspath(os.path.join(folderPath[i],videoList[0]))
+    videoPath = os.path.abspath(os.path.join(folderPath[i], videoList[0]))
 
     profile_name_filepath = os.path.join(folderPath[i], 'profile_name.txt')
     with open(profile_name_filepath, 'r', encoding='utf8') as file:
         profile_name = file.readline().strip()
 
-    status, msg = uploader(videoPath,profile_name,hour)
+    status, msg = uploader(videoPath, profile_name, hour)
     # only msg sent when the appear error
     if not status:
-        DiscordNotification(f"ACTRESS HUB(YT): {msg}")
+        DiscordNotification(f"ACTRESS Hut(YT): {msg}")
         break
     else:
+        DiscordNotification(f"ACTRESS Hut(YT): Video uploaded successfully")
         shutil.rmtree(folderPath[i])
         with open(os.path.abspath("src/time.txt"), "w") as file:
             hour += 3
-            if hour ==21:
+            if hour == 21:
                 hour = 3
             file.write(str(hour))
