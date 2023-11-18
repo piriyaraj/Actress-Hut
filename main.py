@@ -82,15 +82,16 @@ except:
 
 folderPath = [file for file in os.listdir() if file.startswith("post_")]
 if len(folderPath) == 0:
+    print("No new folder path found")
+    print("Downloading new videos")
     noVideoHandler()
     time.sleep(5)
     folderPath = [file for file in os.listdir() if file.startswith("post_")]
     if len(folderPath) == 0:
+        print("No new folder path found")
         exit()
 
-# videoPath = [f for f in os.listdir(folderPath[0]) if f.endswith('.mp4')]
-# if len(videoPath) == 0:
-#     exit()
+folderPath = [file for file in os.listdir() if file.startswith("post_")]
 for i in range(len(folderPath)):
     videoList = [f for f in os.listdir(folderPath[i]) if f.endswith('.mp4')]
     if len(videoList) == 0:
