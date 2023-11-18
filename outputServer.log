@@ -1,4 +1,4 @@
 Database 'data.sqlite3' already exists.
-==== Trying to upload: Trending Katrina Kaif ❤️ hot video #shorts #trending #katrinakaif  ===
+==== Trying to upload: Trending Katrina Kaif ❤️ latest video #shorts #trending #katrinakaif  ===
 === Video uploding (wait until uploading finish) ===
 <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
