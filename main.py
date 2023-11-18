@@ -44,7 +44,7 @@ def uploader(videoPath, user, hour):
     video = videoPath
     userId = videoPath.split("post_")[1].split("_")[0]
     try:
-        title = f"Trending {user} ❤️ hot video #shorts #trending #{userId}"
+        title = f"Trending {user} ❤️ latest video #shorts #trending #{userId}"
         description = title + f'''
         {title}
         Welcome to this captivating video featuring an in-depth look into the life and career of the talented actress {user}. Join us as we delve into the remarkable journey of {user}, a true icon in the world of entertainment.
