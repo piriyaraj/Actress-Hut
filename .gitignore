@@ -6,3 +6,4 @@ src/credentials/storage-oauth2.json
 output video/
 Temp/
 /*.mp3
+post_*/

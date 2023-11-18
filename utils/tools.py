@@ -19,10 +19,12 @@ def downloadVideo(username,threshold_time):
     profile = Profile.from_username(L.context, username)
 
     profile_name = profile.full_name
-    posts_sorted_by_date = sorted(profile.get_posts(), key=lambda post: post.date,reverse=True)
-    print(len(posts_sorted_by_date))
+    # print(profile.get_posts())
+    # print(len(profile.get_posts()))
+    # posts_sorted_by_date = sorted(profile.get_posts(), key=lambda post: post.date,reverse=True)
+    # print(len(posts_sorted_by_date))
     flag = False
-    for post in posts_sorted_by_date:
+    for post in profile.get_posts():
         # Check if the post was uploaded after the threshold time and if it's not a video
         if post.date > threshold_time:
             print(post,post.date,post.is_video)
@@ -173,7 +175,7 @@ def startDownload():
 
 if __name__ == "__main__":
     datetime_obj = datetime.strptime("2023-11-10T12:05:04.978896", '%Y-%m-%dT%H:%M:%S.%f')
-    downloadVideo("iamraailaxmi",datetime_obj)
+    downloadVideo("athulyaofficial",datetime_obj)
     # print(fetch_data_as_dict())
     # updateImages()
     # startDownload()
