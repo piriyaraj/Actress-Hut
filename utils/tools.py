@@ -170,10 +170,12 @@ def startDownload():
         if hours_difference<=24:
             continue
         error,count = downloadVideo(instaId,datetime_obj)
-        if error:
-            return
+        print("Donwloaded videos: ",count)
         if count >= 0:
             update({instaId:datetime.now().isoformat()})
+        if error:
+            return
+        
             
 
 if __name__ == "__main__":
