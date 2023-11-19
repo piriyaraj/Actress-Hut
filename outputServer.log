@@ -1,26 +1,16 @@
 Database 'data.sqlite3' already exists.
-==== Trying to upload: Trending Jyotika ❤️ hot video #shorts #trending #jyotika  ===
+No new folder path found
+Downloading new videos
+=========> katrinakaif <=========== 
+          >> downloading: post_3234204170801453041
+post_katrinakaif_3234204170801453041/2023-11-12_05-35-25_UTC.jpg [See you in cinemas!   #Tiger3…] post_katrinakaif_3234204170801453041/2023-11-12_05-35-25_UTC.mp4 json 
+          >> downloading: post_3232783385570537567
+post_katrinakaif_3232783385570537567/2023-11-10_06-34-25_UTC.jpg [We’ll see you in just 2 days!…] post_katrinakaif_3232783385570537567/2023-11-10_06-34-25_UTC.mp4 json 
+          >> downloading: post_3232238956363311899
+post_katrinakaif_3232238956363311899/2023-11-09_12-32-42_UTC.jpg [Only 3 days to go for #Tiger3…] post_katrinakaif_3232238956363311899/2023-11-09_12-32-42_UTC.mp4 json 
+          >> downloading: post_3231327392806225791
+post_katrinakaif_3231327392806225791/2023-11-08_06-27-10_UTC.jpg [Diwali is just around the cor…] post_katrinakaif_3231327392806225791/2023-11-08_06-27-10_UTC.mp4 json 
+Error(downloadVideo): JSON Query to graphql/query: HTTP error code 401.
+==== Trying to upload: Trending Katrina Kaif ❤️ latest video #shorts #trending #katrinakaif  ===
 === Video uploding (wait until uploading finish) ===
-Video id Yj9Miz-1Q5Y was successfully uploaded.
-Playlist 'Jyotika' created successfully with id 'PL3iK0hvKg-f0gdgiHHFNO1J4J_gJdqRMN'
-==== Trying to upload: Trending Katrina Kaif ❤️ hot video #shorts #trending #katrinakaif  ===
-=== Video uploding (wait until uploading finish) ===
-Video id y1bO4IgZPgk was successfully uploaded.
-Playlist 'Katrina Kaif' created successfully with id 'PL3iK0hvKg-f0ylvrHAwA82OcJG3flyIjl'
-==== Trying to upload: Trending Katrina Kaif ❤️ hot video #shorts #trending #katrinakaif  ===
-=== Video uploding (wait until uploading finish) ===
-Video id Iu_E-Pqkxn8 was successfully uploaded.
-==== Trying to upload: Trending Kajal A Kitchlu ❤️ hot video #shorts #trending #kajalaggarwalofficial  ===
-=== Video uploding (wait until uploading finish) ===
-Video id iI1tUy3-yrY was successfully uploaded.
-Playlist 'Kajal A Kitchlu' created successfully with id 'PL3iK0hvKg-f193iogUuS-fDe-idfuaxv4'
-==== Trying to upload: Trending Katrina Kaif ❤️ hot video #shorts #trending #katrinakaif  ===
-=== Video uploding (wait until uploading finish) ===
-Video id _C5HVHrSFIc was successfully uploaded.
-==== Trying to upload: Trending Kalyani Priyadarshan ❤️ hot video #shorts #trending #kalyanipriyadarshan  ===
-=== Video uploding (wait until uploading finish) ===
-Video id 7edvk6hoRG0 was successfully uploaded.
-Playlist 'Kalyani Priyadarshan' created successfully with id 'PL3iK0hvKg-f1nY1uBXjQs_MhefmN3cOyx'
-==== Trying to upload: Trending Katrina Kaif ❤️ hot video #shorts #trending #katrinakaif  ===
-=== Video uploding (wait until uploading finish) ===
-Video id 6SKMbkjr0JM was successfully uploaded.
+<HttpError 403 when requesting None returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
