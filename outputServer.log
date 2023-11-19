@@ -1,17 +1,28 @@
 Database 'data.sqlite3' already exists.
 No new folder path found
 Downloading new videos
-=========> katrinakaif <=========== 
-          >> downloading: post_3234204170801453041
-post_katrinakaif_3234204170801453041/2023-11-12_05-35-25_UTC.jpg [See you in cinemas!   #Tiger3…] post_katrinakaif_3234204170801453041/2023-11-12_05-35-25_UTC.mp4 json 
-          >> downloading: post_3232783385570537567
-post_katrinakaif_3232783385570537567/2023-11-10_06-34-25_UTC.jpg [We’ll see you in just 2 days!…] post_katrinakaif_3232783385570537567/2023-11-10_06-34-25_UTC.mp4 json 
-          >> downloading: post_3232238956363311899
-post_katrinakaif_3232238956363311899/2023-11-09_12-32-42_UTC.jpg [Only 3 days to go for #Tiger3…] post_katrinakaif_3232238956363311899/2023-11-09_12-32-42_UTC.mp4 json 
-          >> downloading: post_3231327392806225791
-post_katrinakaif_3231327392806225791/2023-11-08_06-27-10_UTC.jpg [Diwali is just around the cor…] post_katrinakaif_3231327392806225791/2023-11-08_06-27-10_UTC.mp4 json 
-Error(downloadVideo): JSON Query to graphql/query: HTTP error code 401.
-Donwloaded videos:  4
-==== Trying to upload: Trending Katrina Kaif ❤️ latest video #shorts #trending #katrinakaif  ===
+=========> keerthysureshofficial <=========== 
+          >> downloading: post_3235959114689207036
+post_keerthysureshofficial_3235959114689207036/2023-11-14_15-54-46_UTC.jpg [With love and Gratitude ❤️🙏🏻 …] post_keerthysureshofficial_3235959114689207036/2023-11-14_15-54-46_UTC.mp4 json 
+          >> downloading: post_3233710300541348261
+post_keerthysureshofficial_3233710300541348261/2023-11-11_13-12-54_UTC.jpg [Keep your Anjara Petti away. …] post_keerthysureshofficial_3233710300541348261/2023-11-11_13-12-54_UTC.mp4 json 
+Process finished
+Donwloaded videos:  2
+=========> kriti.kharbanda <=========== 
+          >> downloading: post_3238789989238185761
+post_kriti.kharbanda_3238789989238185761/2023-11-18_13-29-05_UTC.jpg [Virtually try-on hair colors …] post_kriti.kharbanda_3238789989238185761/2023-11-18_13-29-05_UTC.mp4 json 
+Process finished
+Donwloaded videos:  1
+=========> losliyamariya96 <=========== 
+          >> downloading: post_3234986523816973398
+post_losliyamariya96_3234986523816973398/2023-11-13_07-28-53_UTC.jpg [🧡  📸 @artz_by_sathish  Hair @…] post_losliyamariya96_3234986523816973398/2023-11-13_07-28-53_UTC.mp4 json 
+Process finished
+Donwloaded videos:  1
+=========> malvikasharmaofficial <=========== 
+
+HTTP redirect from https://i.instagram.com/api/v1/users/web_profile_info/?username=malvikasharmaofficial to https://i.instagram.com/accounts/login/?next=/api/v1/users/web_profile_info/
+Error(downloadVideo): Redirected to login page. Use --login.
+Donwloaded videos:  0
+==== Trying to upload: Trending Keerthy Suresh ❤️ latest video #shorts #trending #keerthysureshofficial  ===
 === Video uploding (wait until uploading finish) ===
 <HttpError 403 when requesting None returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
