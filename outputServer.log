@@ -1,4 +1,16 @@
 Database 'data.sqlite3' already exists.
 ==== Trying to upload: Trending Keerthy Suresh ❤️ latest video #shorts #trending #keerthysureshofficial  ===
 === Video uploding (wait until uploading finish) ===
-<HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+Video id 6LBoTW2ej04 was successfully uploaded.
+Playlist 'Keerthy Suresh' created successfully with id 'PL3iK0hvKg-f2xgA-VNyieMs_3QpzpdYNh'
+==== Trying to upload: Trending Kriti Kharbanda ❤️ latest video #shorts #trending #kriti.kharbanda  ===
+=== Video uploding (wait until uploading finish) ===
+Video id A4Qk8-SKx4I was successfully uploaded.
+Playlist 'Kriti Kharbanda' created successfully with id 'PL3iK0hvKg-f1WO-ep3gfg-5C_nR3Lq91i'
+==== Trying to upload: Trending Losliya Mariyanesan ❤️ latest video #shorts #trending #losliyamariya96  ===
+=== Video uploding (wait until uploading finish) ===
+Video id OsY9YM4ojbc was successfully uploaded.
+Playlist 'Losliya Mariyanesan' created successfully with id 'PL3iK0hvKg-f3saUmxDCQrvOB8MYShrU1l'
+==== Trying to upload: Trending Keerthy Suresh ❤️ latest video #shorts #trending #keerthysureshofficial  ===
+=== Video uploding (wait until uploading finish) ===
+Video id 9bvae8zX3KQ was successfully uploaded.
