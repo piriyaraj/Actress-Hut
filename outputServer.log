@@ -11,6 +11,7 @@ post_katrinakaif_3232238956363311899/2023-11-09_12-32-42_UTC.jpg [Only 3 days to
           >> downloading: post_3231327392806225791
 post_katrinakaif_3231327392806225791/2023-11-08_06-27-10_UTC.jpg [Diwali is just around the cor…] post_katrinakaif_3231327392806225791/2023-11-08_06-27-10_UTC.mp4 json 
 Error(downloadVideo): JSON Query to graphql/query: HTTP error code 401.
+Donwloaded videos:  4
 ==== Trying to upload: Trending Katrina Kaif ❤️ latest video #shorts #trending #katrinakaif  ===
 === Video uploding (wait until uploading finish) ===
 <HttpError 403 when requesting None returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
