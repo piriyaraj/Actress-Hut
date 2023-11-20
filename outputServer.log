@@ -1,4 +1,19 @@
 Database 'data.sqlite3' already exists.
 ==== Trying to upload: Trending Raashii Khanna ❤️ latest video #shorts #trending #raashiikhanna  ===
 === Video uploding (wait until uploading finish) ===
-<HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+Video id wDPmLhVQhqE was successfully uploaded.
+Playlist 'Raashii Khanna' created successfully with id 'PL3iK0hvKg-f2JPsqIsIvYNUNzr8NzB46k'
+==== Trying to upload: Trending Rashmika Mandanna ❤️ latest video #shorts #trending #rashmika  ===
+=== Video uploding (wait until uploading finish) ===
+Video id 7IEtaZBCVwA was successfully uploaded.
+Playlist 'Rashmika Mandanna' created successfully with id 'PL3iK0hvKg-f1hUnuBINP0nSd3Ax7HhaE2'
+==== Trying to upload: Trending Regina Cassandra ❤️ latest video #shorts #trending #reginaacassandraa  ===
+=== Video uploding (wait until uploading finish) ===
+Video id EiBRiTBTE6s was successfully uploaded.
+Playlist 'Regina Cassandra' created successfully with id 'PL3iK0hvKg-f3E_fU0c1lzHoHJ2xIRYH_V'
+==== Trying to upload: Trending Regina Cassandra ❤️ latest video #shorts #trending #reginaacassandraa  ===
+=== Video uploding (wait until uploading finish) ===
+Video id JcHptipROf0 was successfully uploaded.
+==== Trying to upload: Trending Regina Cassandra ❤️ latest video #shorts #trending #reginaacassandraa  ===
+=== Video uploding (wait until uploading finish) ===
+Video id 582CmoQS_FM was successfully uploaded.
