@@ -1,4 +1,4 @@
 Database 'data.sqlite3' already exists.
 ==== Trying to upload: Trending Genelia Deshmukh ❤️ latest video #shorts #trending #geneliad  ===
 === Video uploding (wait until uploading finish) ===
-<HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+<HttpError 403 when requesting None returned "The YouTube account of the authenticated user is suspended. In case the authenticated user is acting on behalf of another Google account, then this error refers to the latter.". Details: "[{'message': 'The YouTube account of the authenticated user is suspended. In case the authenticated user is acting on behalf of another Google account, then this error refers to the latter.', 'domain': 'youtube.common', 'reason': 'authenticatedUserAccountSuspended'}]">
