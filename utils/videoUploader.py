@@ -118,7 +118,7 @@ def add_video_to_playlist(videoID, playlistID):
 
 def uploadVideos(nameOfId: str, filePath: str, title: str, description: str, keywords: list, delay: int, category="22"):
     youtube = get_authenticated_service()
-    print("==== Trying to upload:",title," ===")
+    print("==== Trying to upload:", title, " ===")
     options = {
         "file": filePath,
         "title": title,
@@ -127,7 +127,7 @@ def uploadVideos(nameOfId: str, filePath: str, title: str, description: str, key
         "keywords": keywords,
         "privacyStatus": 'private'
     }
-    tags = [nameOfId,"latest "+nameOfId ,"trending", "Actress video", "Celebrity",
+    tags = [nameOfId, "latest "+nameOfId, "trending", "Actress video", "Celebrity",
             "whatsapp status", "shorts", "cute", "photo shoots", "story", "Hot "+nameOfId]
     local_tz = pytz.timezone('Asia/Colombo')
     scheduled_time = datetime.datetime.now() + datetime.timedelta(minutes=delay)
@@ -144,7 +144,7 @@ def uploadVideos(nameOfId: str, filePath: str, title: str, description: str, key
         ),
         status=dict(
             privacyStatus=options['privacyStatus'],
-            publishAt=scheduled_time.isoformat() + 'Z'
+            # publishAt=scheduled_time.isoformat() + 'Z'
         )
     )
     chunksize = -1
