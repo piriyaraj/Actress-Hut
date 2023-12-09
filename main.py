@@ -41,7 +41,7 @@ def get_video_info(video_path):
     return width, height, fps, duration_seconds, aspect_ratio
 
 def isItReel(width, height, fps, duration, aspect_ratio):
-    if duration > 60 or width != 1080 or height != 1920 :
+    if duration > 60 or aspect_ratio != 0.5625:
         return False
     return True
 
@@ -122,8 +122,8 @@ except:
 
 try:
     noVideoHandler()
-except:
-    pass
+except Exception as e:
+    DiscordNotification(f"ACTRESS Hut(YT): {e}")
 finally:
     time.sleep(5)
 # exit()
@@ -144,23 +144,33 @@ folderPath = [file for file in os.listdir() if file.startswith("post_")]
 no_of_video = 1
 if no_of_video > len(folderPath):
     no_of_video = len(folderPath)
-for i in range(no_of_video):
+
+count = 0
+while count < no_of_video:
+    i = count
+    print(folderPath[i])
     videoList = [f for f in os.listdir(folderPath[i]) if f.endswith('.mp4')]
     if len(videoList) == 0:
-        shutil.rmtree(folderPath[0])
+        shutil.rmtree(folderPath[i])
         exit()
 
     videoPath = os.path.abspath(os.path.join(folderPath[i], videoList[0]))
 
     width, height, fps, duration, aspect_ratio = get_video_info(videoPath)
+    print(width, height, fps, duration, aspect_ratio)
     if not (isItReel(width, height, fps, duration, aspect_ratio)):
-        shutil.rmtree(folderPath[0])
+        print("Video is not a reel")
+        shutil.rmtree(folderPath[i])
+        if no_of_video < len(folderPath):
+            no_of_video += 1
+        count += 1
         continue
 
     profile_name_filepath = os.path.join(folderPath[i], 'profile_name.txt')
     with open(profile_name_filepath, 'r', encoding='utf8') as file:
         profile_name = file.readline().strip()
 
+    count  += 1
     status, msg = uploader(videoPath, profile_name, hour)
     # only msg sent when the appear error
     if not status:
