@@ -86,17 +86,19 @@ try:
     noVideoHandler()
 except:
     pass
+finally:
+    time.sleep(5)
 folderPath = [file for file in os.listdir() if file.startswith("post_")]
 if len(folderPath) == 0:
     print("No new folder path found")
-    print("Downloading new videos")
-    noVideoHandler()
+    DiscordNotification(f"ACTRESS Hut(YT): No new video available")
     time.sleep(5)
-    folderPath = [file for file in os.listdir() if file.startswith("post_")]
-    if len(folderPath) == 0:
-        print("No new folder path found")
-        DiscordNotification(f"ACTRESS Hut(YT): No new video available")
-        exit()
+    exit()
+    # folderPath = [file for file in os.listdir() if file.startswith("post_")]
+    # if len(folderPath) == 0:
+    #     print("No new folder path found")
+        
+    #     exit()
 
 folderPath = [file for file in os.listdir() if file.startswith("post_")]
 for i in range(len(folderPath)):
