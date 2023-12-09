@@ -125,7 +125,7 @@ def uploadVideos(nameOfId: str, filePath: str, title: str, description: str, key
         "description": description,
         "category": category,
         "keywords": keywords,
-        "privacyStatus": 'private'
+        "privacyStatus": 'public',
     }
     tags = [nameOfId, "latest "+nameOfId, "trending", "Actress video", "Celebrity",
             "whatsapp status", "shorts", "cute", "photo shoots", "story", "Hot "+nameOfId]
