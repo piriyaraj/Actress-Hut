@@ -7,6 +7,44 @@ import shutil
 from discordwebhook import Discord
 
 import utils.videoUploader as videoUploader
+
+import cv2
+
+def get_video_info(video_path):
+    # Open the video file
+    cap = cv2.VideoCapture(video_path)
+
+    # Check if the video file is opened successfully
+    if not cap.isOpened():
+        print("Error: Could not open the video file.")
+        return
+
+    # Get the width and height of the video
+    width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+    height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+
+    # Get the frames per second (FPS) of the video
+    fps = cap.get(cv2.CAP_PROP_FPS)
+
+    # Get the total number of frames in the video
+    frame_count = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+
+    # Calculate the duration of the video in seconds
+    duration_seconds = frame_count / fps
+
+    # Calculate the aspect ratio
+    aspect_ratio = width / height
+
+    # Release the video capture object
+    cap.release()
+
+    return width, height, fps, duration_seconds, aspect_ratio
+
+def isItReel(width, height, fps, duration, aspect_ratio):
+    if duration > 60 or aspect_ratio != 0.5625:
+        return False
+    return True
+
 if not os.path.exists('media/videos'):
     os.makedirs('media/videos')
 
@@ -84,10 +122,12 @@ except:
 
 try:
     noVideoHandler()
-except:
-    pass
+except Exception as e:
+    DiscordNotification(f"ACTRESS Hut(YT): {e}")
 finally:
     time.sleep(5)
+# exit()
+
 folderPath = [file for file in os.listdir() if file.startswith("post_")]
 if len(folderPath) == 0:
     print("No new folder path found")
@@ -104,18 +144,33 @@ folderPath = [file for file in os.listdir() if file.startswith("post_")]
 no_of_video = 1
 if no_of_video > len(folderPath):
     no_of_video = len(folderPath)
-for i in range(no_of_video):
+
+count = 0
+while count < no_of_video:
+    i = count
+    print(folderPath[i])
     videoList = [f for f in os.listdir(folderPath[i]) if f.endswith('.mp4')]
     if len(videoList) == 0:
-        shutil.rmtree(folderPath[0])
+        shutil.rmtree(folderPath[i])
         exit()
 
     videoPath = os.path.abspath(os.path.join(folderPath[i], videoList[0]))
+
+    width, height, fps, duration, aspect_ratio = get_video_info(videoPath)
+    print(width, height, fps, duration, aspect_ratio)
+    if not (isItReel(width, height, fps, duration, aspect_ratio)):
+        print("Video is not a reel")
+        shutil.rmtree(folderPath[i])
+        if no_of_video < len(folderPath):
+            no_of_video += 1
+        count += 1
+        continue
 
     profile_name_filepath = os.path.join(folderPath[i], 'profile_name.txt')
     with open(profile_name_filepath, 'r', encoding='utf8') as file:
         profile_name = file.readline().strip()
 
+    count  += 1
     status, msg = uploader(videoPath, profile_name, hour)
     # only msg sent when the appear error
     if not status:
