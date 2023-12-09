@@ -101,7 +101,10 @@ if len(folderPath) == 0:
     #     exit()
 
 folderPath = [file for file in os.listdir() if file.startswith("post_")]
-for i in range(len(folderPath)):
+no_of_video = 1
+if no_of_video > len(folderPath):
+    no_of_video = len(folderPath)
+for i in range(no_of_video):
     videoList = [f for f in os.listdir(folderPath[i]) if f.endswith('.mp4')]
     if len(videoList) == 0:
         shutil.rmtree(folderPath[0])
