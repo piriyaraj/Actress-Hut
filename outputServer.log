@@ -1,6 +1,13 @@
 Database 'data.sqlite3' already exists.
 No new folder path found
 Downloading new videos
+=========> rashmika_mandanna <=========== 
+          >> downloading: post_3249644338181046718
+post_rashmika_mandanna_3249644338181046718/2023-12-03_12-51-49_UTC.jpg [All Eyes On You | Bewakoof®️ …] post_rashmika_mandanna_3249644338181046718/2023-12-03_12-51-49_UTC.mp4 json 
+          >> downloading: post_3242345098429647363
+post_rashmika_mandanna_3242345098429647363/2023-11-23_11-19-37_UTC.jpg [The Animal trailer! ❤️‍🔥   I …] post_rashmika_mandanna_3242345098429647363/2023-11-23_11-19-37_UTC.mp4 json 
+Process finished
+Donwloaded videos:  2
 =========> keerthysureshofficial <=========== 
 =========> malvikasharmaofficial <=========== 
 =========> manju.warrier <=========== 
@@ -11,7 +18,6 @@ Downloading new videos
 =========> poonambajwa555 <=========== 
 =========> pranitha.insta <=========== 
 =========> raashiikhanna <=========== 
-=========> rashmika_mandanna <=========== 
 =========> reginaacassandraa <=========== 
 =========> ritika_offl <=========== 
 =========> saipallavi.senthamarai <=========== 
@@ -48,4 +54,6 @@ Downloading new videos
 =========> srinidhi_shetty <=========== 
 =========> tamannaahspeaks <=========== 
 =========> kschithra_nightingale________ <=========== 
-No new folder path found
+==== Trying to upload: Trending Rashmika Mandanna ❤️ latest video #shorts #trending #rashmika  ===
+=== Video uploding (wait until uploading finish) ===
+<HttpError 403 when requesting None returned "The YouTube account of the authenticated user is suspended. In case the authenticated user is acting on behalf of another Google account, then this error refers to the latter.". Details: "[{'message': 'The YouTube account of the authenticated user is suspended. In case the authenticated user is acting on behalf of another Google account, then this error refers to the latter.', 'domain': 'youtube.common', 'reason': 'authenticatedUserAccountSuspended'}]">
