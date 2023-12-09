@@ -40,6 +40,11 @@ def get_video_info(video_path):
 
     return width, height, fps, duration_seconds, aspect_ratio
 
+def isItReel(width, height, fps, duration, aspect_ratio):
+    if duration > 60 or width != 1080 or height != 1920 :
+        return False
+    return True
+
 if not os.path.exists('media/videos'):
     os.makedirs('media/videos')
 
@@ -121,7 +126,7 @@ except:
     pass
 finally:
     time.sleep(5)
-exit()
+# exit()
 
 folderPath = [file for file in os.listdir() if file.startswith("post_")]
 if len(folderPath) == 0:
@@ -146,6 +151,11 @@ for i in range(no_of_video):
         exit()
 
     videoPath = os.path.abspath(os.path.join(folderPath[i], videoList[0]))
+
+    width, height, fps, duration, aspect_ratio = get_video_info(videoPath)
+    if not (isItReel(width, height, fps, duration, aspect_ratio)):
+        shutil.rmtree(folderPath[0])
+        continue
 
     profile_name_filepath = os.path.join(folderPath[i], 'profile_name.txt')
     with open(profile_name_filepath, 'r', encoding='utf8') as file:
