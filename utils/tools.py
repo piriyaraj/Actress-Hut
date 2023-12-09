@@ -167,7 +167,7 @@ def startDownload():
         current_time = datetime.now()
         time_difference = current_time - datetime_obj
         hours_difference = int(time_difference.total_seconds() / 3600)
-        if hours_difference<=24:
+        if hours_difference<=6:
             continue
         error,count = downloadVideo(instaId,datetime_obj)
         print("Donwloaded videos: ",count)
