@@ -91,6 +91,7 @@ if len(folderPath) == 0:
     folderPath = [file for file in os.listdir() if file.startswith("post_")]
     if len(folderPath) == 0:
         print("No new folder path found")
+        DiscordNotification(f"ACTRESS Hut(YT): No new video available")
         exit()
 
 folderPath = [file for file in os.listdir() if file.startswith("post_")]
