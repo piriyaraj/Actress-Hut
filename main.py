@@ -82,20 +82,29 @@ try:
 except:
     hour = 3
 
+try:
+    noVideoHandler()
+except:
+    pass
+finally:
+    time.sleep(5)
 folderPath = [file for file in os.listdir() if file.startswith("post_")]
 if len(folderPath) == 0:
     print("No new folder path found")
-    print("Downloading new videos")
-    noVideoHandler()
+    DiscordNotification(f"ACTRESS Hut(YT): No new video available")
     time.sleep(5)
-    folderPath = [file for file in os.listdir() if file.startswith("post_")]
-    if len(folderPath) == 0:
-        print("No new folder path found")
-        DiscordNotification(f"ACTRESS Hut(YT): No new video available")
-        exit()
+    exit()
+    # folderPath = [file for file in os.listdir() if file.startswith("post_")]
+    # if len(folderPath) == 0:
+    #     print("No new folder path found")
+        
+    #     exit()
 
 folderPath = [file for file in os.listdir() if file.startswith("post_")]
-for i in range(len(folderPath)):
+no_of_video = 1
+if no_of_video > len(folderPath):
+    no_of_video = len(folderPath)
+for i in range(no_of_video):
     videoList = [f for f in os.listdir(folderPath[i]) if f.endswith('.mp4')]
     if len(videoList) == 0:
         shutil.rmtree(folderPath[0])
