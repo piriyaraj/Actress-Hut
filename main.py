@@ -10,6 +10,11 @@ import utils.videoUploader as videoUploader
 
 import cv2
 
+import datetime
+
+current_datetime = datetime.datetime.now()
+print("Current Date and Time:", current_datetime)
+
 
 def get_video_info(video_path):
     # Open the video file
