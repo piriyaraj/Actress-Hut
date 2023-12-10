@@ -10,6 +10,7 @@ import utils.videoUploader as videoUploader
 
 import cv2
 
+
 def get_video_info(video_path):
     # Open the video file
     cap = cv2.VideoCapture(video_path)
@@ -40,10 +41,12 @@ def get_video_info(video_path):
 
     return width, height, fps, duration_seconds, aspect_ratio
 
+
 def isItReel(width, height, fps, duration, aspect_ratio):
-    if duration > 60 or aspect_ratio != 0.5625:
+    if duration > 59 or aspect_ratio != 0.5625:
         return False
     return True
+
 
 if not os.path.exists('media/videos'):
     os.makedirs('media/videos')
@@ -137,7 +140,7 @@ if len(folderPath) == 0:
     # folderPath = [file for file in os.listdir() if file.startswith("post_")]
     # if len(folderPath) == 0:
     #     print("No new folder path found")
-        
+
     #     exit()
 
 folderPath = [file for file in os.listdir() if file.startswith("post_")]
@@ -170,7 +173,7 @@ while count < no_of_video:
     with open(profile_name_filepath, 'r', encoding='utf8') as file:
         profile_name = file.readline().strip()
 
-    count  += 1
+    count += 1
     status, msg = uploader(videoPath, profile_name, hour)
     # only msg sent when the appear error
     if not status:
