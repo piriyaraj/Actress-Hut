@@ -27,8 +27,8 @@ python3 main.py > outputServer.log
 # Stage, commit, push, and pull changes again
 git add .
 git commit -m "update"
-git push
 git pull
+git push
 
 # Deactivate the virtual environment
 deactivate
