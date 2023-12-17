@@ -118,7 +118,7 @@ def add_video_to_playlist(videoID, playlistID):
 
 def uploadVideos(nameOfId: str, filePath: str, title: str, description: str, keywords: list, delay: int, category="22"):
     youtube = get_authenticated_service()
-    print("==== Trying to upload:", title, " ===")
+    print("==== Trying to upload: ===")
     options = {
         "file": filePath,
         "title": title,
