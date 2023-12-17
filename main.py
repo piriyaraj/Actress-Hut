@@ -128,14 +128,17 @@ try:
 except:
     hour = 3
 
-try:
-    noVideoHandler()
-except Exception as e:
-    DiscordNotification(f"ACTRESS Hut(YT): {e}")
-finally:
-    time.sleep(5)
+
 # exit()
 
+folderPath = [file for file in os.listdir() if file.startswith("post_")]
+if len(folderPath) == 0:
+    try:
+        noVideoHandler()
+    except Exception as e:
+        DiscordNotification(f"ACTRESS Hut(YT): {e}")
+    finally:
+        time.sleep(5)
 folderPath = [file for file in os.listdir() if file.startswith("post_")]
 if len(folderPath) == 0:
     print("No new folder path found")
