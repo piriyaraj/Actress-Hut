@@ -1,11 +1,8 @@
-Current Date and Time: 2023-12-21 20:05:07.175647
+Current Date and Time: 2023-12-21 21:05:16.461386
 Database 'data.sqlite3' already exists.
-post_shriya_saran1109_3262400646481471089
-480 854 30.0 31.533333333333335 0.5620608899297423
-Video is not a reel
-post_shriya_saran1109_3262534938383374497
-1080 1920 25.198 10.159536471148504 0.5625
-==== Trying to upload: ===
-=== Video uploding (wait until uploading finish) ===
-Video id TkvOXUHVOv4 was successfully uploaded.
-Error(Adding playlist to video:) <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned "Forbidden". Details: "[{'message': 'Forbidden', 'domain': 'youtube.playlistItem', 'reason': 'playlistItemsNotAccessible'}]">
+=========> geneliad <=========== 
+
+HTTP redirect from https://i.instagram.com/api/v1/users/web_profile_info/?username=geneliad to https://i.instagram.com/accounts/login/?next=/api/v1/users/web_profile_info/
+Error(downloadVideo): Redirected to login page. Use --login.
+Donwloaded videos:  0
+No new folder path found
