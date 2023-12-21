@@ -1,8 +1,11 @@
-Current Date and Time: 2023-12-21 19:49:28.410079
+Current Date and Time: 2023-12-21 20:05:07.175647
 Database 'data.sqlite3' already exists.
-post_shriya_saran1109_3262386582049138733
-1080 1920 23.976 43.66866866866867 0.5625
+post_shriya_saran1109_3262400646481471089
+480 854 30.0 31.533333333333335 0.5620608899297423
+Video is not a reel
+post_shriya_saran1109_3262534938383374497
+1080 1920 25.198 10.159536471148504 0.5625
 ==== Trying to upload: ===
 === Video uploding (wait until uploading finish) ===
-Video id eZo_n99Y4UY was successfully uploaded.
+Video id TkvOXUHVOv4 was successfully uploaded.
 Error(Adding playlist to video:) <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned "Forbidden". Details: "[{'message': 'Forbidden', 'domain': 'youtube.playlistItem', 'reason': 'playlistItemsNotAccessible'}]">
