@@ -1,8 +1,8 @@
-Current Date and Time: 2023-12-21 19:45:21.963825
+Current Date and Time: 2023-12-21 19:49:28.410079
 Database 'data.sqlite3' already exists.
-post_feeling__musix.__3262327260157991896
-1080 1920 30.0 38.166666666666664 0.5625
+post_shriya_saran1109_3262386582049138733
+1080 1920 23.976 43.66866866866867 0.5625
 ==== Trying to upload: ===
 === Video uploding (wait until uploading finish) ===
-Video id 6GtLr-WvN_Q was successfully uploaded.
-'charmap' codec can't encode character '\U0001f341' in position 30: character maps to <undefined>
+Video id eZo_n99Y4UY was successfully uploaded.
+Error(Adding playlist to video:) <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned "Forbidden". Details: "[{'message': 'Forbidden', 'domain': 'youtube.playlistItem', 'reason': 'playlistItemsNotAccessible'}]">
