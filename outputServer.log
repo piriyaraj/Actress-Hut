@@ -1,7 +1,7 @@
-Current Date and Time: 2023-12-21 03:00:09.959120
+Current Date and Time: 2023-12-22 03:00:10.150378
 Database 'data.sqlite3' already exists.
-post_amalapaul.__3260800141064899587
-720 1280 30.0 43.666666666666664 0.5625
+post_geneliad_3259766658568503273
+1080 1920 30.0 24.233333333333334 0.5625
 ==== Trying to upload: ===
 === Video uploding (wait until uploading finish) ===
-Video id ZLSPLLFovZo was successfully uploaded.
+<HttpError 403 when requesting None returned "Access forbidden. The request may not be properly authorized.". Details: "[{'message': 'Access forbidden. The request may not be properly authorized.', 'domain': 'youtube.common', 'reason': 'forbidden'}]">

@@ -14,6 +14,7 @@ import re
 def downloadVideo(username,threshold_time):
     error = False
     count = 0
+    redirected = False
     try:
         # Create an instance of Instaloader
         L = Instaloader()
@@ -47,8 +48,10 @@ def downloadVideo(username,threshold_time):
                 break
     except Exception as e:
         print("Error(downloadVideo): " + str(e))
+        if "Redirected to login" in str(e):
+            redirected = True
         error = True
-    return error, count
+    return error, count, redirected
 
 def fetch_data_as_dict():
     conn = sqlite3.connect('src/database/data.sqlite3')
@@ -170,11 +173,11 @@ def startDownload():
         if hours_difference<=6:
             continue
         try:
-            error,count = downloadVideo(instaId,datetime_obj)
+            error, count, redirected = downloadVideo(instaId,datetime_obj)
         except:
             continue
         print("Donwloaded videos: ",count)
-        if count >= 0:
+        if count >= 0 and not redirected:
             update({instaId:datetime.now().isoformat()})
         if error:
             return

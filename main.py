@@ -12,6 +12,7 @@ import cv2
 
 import datetime
 
+videoUploader.get_authenticated_service()
 current_datetime = datetime.datetime.now()
 print("Current Date and Time:", current_datetime)
 
