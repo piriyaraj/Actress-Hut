@@ -137,7 +137,7 @@ if len(folderPath) == 0:
     try:
         noVideoHandler()
     except Exception as e:
-        DiscordNotification(f"ACTRESS Hut(YT): {e}")
+        DiscordNotification(f"ACTRESS Hut(YT)140: {e}")
     finally:
         time.sleep(5)
 folderPath = [file for file in os.listdir() if file.startswith("post_")]
@@ -186,7 +186,7 @@ while count < no_of_video:
     status, msg = uploader(videoPath, profile_name, hour)
     # only msg sent when the appear error
     if not status:
-        DiscordNotification(f"ACTRESS Hut(YT): {msg}")
+        DiscordNotification(f"ACTRESS Hut(YT)189: {msg}")
         break
     else:
         DiscordNotification(f"ACTRESS Hut(YT): Video uploaded successfully")
