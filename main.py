@@ -49,8 +49,8 @@ def get_video_info(video_path):
 
 
 def isItReel(width, height, fps, duration, aspect_ratio):
-    if duration > 59 or aspect_ratio != 0.5625:
-        return False
+    # if duration > 59 or aspect_ratio != 0.5625:
+    #     return False
     return True
 
 
