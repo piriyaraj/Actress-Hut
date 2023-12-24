@@ -17,6 +17,17 @@ current_datetime = datetime.datetime.now()
 print("Current Date and Time:", current_datetime)
 
 
+import platform
+
+def print_device_details():
+    print(f"System: {platform.system()}")
+    print(f"Node Name: {platform.node()}")
+    print(f"Release: {platform.release()}")
+    print(f"Version: {platform.version()}")
+    print(f"Machine: {platform.machine()}")
+    print(f"Processor: {platform.processor()}")
+    
+print_device_details()
 def get_video_info(video_path):
     # Open the video file
     cap = cv2.VideoCapture(video_path)
@@ -49,8 +60,8 @@ def get_video_info(video_path):
 
 
 def isItReel(width, height, fps, duration, aspect_ratio):
-    if duration > 59 or aspect_ratio != 0.5625:
-        return False
+    # if duration > 59 or aspect_ratio != 0.5625:
+    #     return False
     return True
 
 
