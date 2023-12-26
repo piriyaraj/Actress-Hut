@@ -1,0 +1,119 @@
+2023-12-26 10:53:08,565 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-26 10:53:08,747 - INFO - System: Windows
+2023-12-26 10:53:08,747 - INFO - Node Name: PJ
+2023-12-26 10:53:08,747 - INFO - Release: 10
+2023-12-26 10:53:08,747 - INFO - Version: 10.0.22631
+2023-12-26 10:53:08,747 - INFO - Machine: AMD64
+2023-12-26 10:53:08,747 - INFO - Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2023-12-26 10:54:55,352 - INFO - [+] Posting: post_anushkashettyofficial_3264853278331772348
+2023-12-26 10:54:56,257 - INFO -    [-] Width: 1080 Height: 1920 fps: 30.0 Duration: 15.0 Aspect ratio: 0.5625
+2023-12-26 10:54:56,273 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-26 10:55:03,653 - INFO -    [-] Start uploading
+2023-12-26 10:55:04,373 - INFO - Refreshing due to a 401 (attempt 1/2)
+2023-12-26 10:55:04,373 - INFO - Refreshing access_token
+2023-12-26 10:55:05,650 - ERROR -    [-] Error during video upload: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2023-12-26 10:55:05,650 - ERROR -    [-] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2023-12-26 11:05:20,039 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-26 11:05:20,117 - INFO - System: Windows
+2023-12-26 11:05:20,117 - INFO - Node Name: PJ_Laptop
+2023-12-26 11:05:20,117 - INFO - Release: 10
+2023-12-26 11:05:20,117 - INFO - Version: 10.0.19045
+2023-12-26 11:05:20,117 - INFO - Machine: AMD64
+2023-12-26 11:05:20,117 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2023-12-26 11:05:20,117 - INFO - [+] Posting: post_im_raveena_daha_3264923160184578579
+2023-12-26 11:05:21,539 - INFO -    [-] Width: 704 Height: 1252 fps: 30.0 Duration: 88.86666666666666 Aspect ratio: 0.5623003194888179
+2023-12-26 11:05:21,570 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-26 11:05:24,695 - INFO -    [-] Start uploading
+2023-12-26 11:05:25,554 - INFO - Refreshing due to a 401 (attempt 1/2)
+2023-12-26 11:05:25,554 - INFO - Refreshing access_token
+2023-12-26 11:05:27,070 - ERROR -    [-] Error during video upload: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2023-12-26 11:05:27,070 - ERROR -    [-] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2023-12-26 12:05:15,083 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-26 12:05:15,158 - INFO - System: Windows
+2023-12-26 12:05:15,158 - INFO - Node Name: PJ_Laptop
+2023-12-26 12:05:15,158 - INFO - Release: 10
+2023-12-26 12:05:15,158 - INFO - Version: 10.0.19045
+2023-12-26 12:05:15,158 - INFO - Machine: AMD64
+2023-12-26 12:05:15,158 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2023-12-26 12:05:15,160 - INFO - [+] Posting: post_im_raveena_daha_3264923160184578579
+2023-12-26 12:05:16,379 - INFO -    [-] Width: 704 Height: 1252 fps: 30.0 Duration: 88.86666666666666 Aspect ratio: 0.5623003194888179
+2023-12-26 12:05:16,394 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-26 12:05:16,486 - INFO -    [-] Start uploading
+2023-12-26 12:05:18,072 - ERROR -    [-] Error during video upload: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2023-12-26 12:05:18,073 - ERROR -    [-] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2023-12-27 00:05:17,905 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-27 00:05:17,988 - INFO - System: Windows
+2023-12-27 00:05:17,989 - INFO - Node Name: PJ_Laptop
+2023-12-27 00:05:17,989 - INFO - Release: 10
+2023-12-27 00:05:17,989 - INFO - Version: 10.0.19045
+2023-12-27 00:05:17,989 - INFO - Machine: AMD64
+2023-12-27 00:05:17,989 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2023-12-27 00:05:17,991 - INFO - [+] Posting: post_im_raveena_daha_3264923160184578579
+2023-12-27 00:05:19,379 - INFO -    [-] Width: 704 Height: 1252 fps: 30.0 Duration: 88.86666666666666 Aspect ratio: 0.5623003194888179
+2023-12-27 00:05:19,388 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-27 00:05:22,424 - INFO -    [-] Start uploading
+2023-12-27 00:05:22,859 - INFO - Refreshing due to a 401 (attempt 1/2)
+2023-12-27 00:05:22,862 - INFO - Refreshing access_token
+2023-12-27 00:05:24,585 - ERROR -    [-] Error during video upload: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2023-12-27 00:05:24,586 - ERROR -    [-] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2023-12-27 01:05:11,145 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-27 01:05:11,198 - INFO - System: Windows
+2023-12-27 01:05:11,198 - INFO - Node Name: PJ_Laptop
+2023-12-27 01:05:11,198 - INFO - Release: 10
+2023-12-27 01:05:11,198 - INFO - Version: 10.0.19045
+2023-12-27 01:05:11,198 - INFO - Machine: AMD64
+2023-12-27 01:05:11,199 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2023-12-27 01:05:11,199 - INFO - [+] Posting: post_im_raveena_daha_3264923160184578579
+2023-12-27 01:05:12,256 - INFO -    [-] Width: 704 Height: 1252 fps: 30.0 Duration: 88.86666666666666 Aspect ratio: 0.5623003194888179
+2023-12-27 01:05:12,258 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-27 01:05:12,340 - INFO -    [-] Start uploading
+2023-12-27 01:05:23,088 - INFO -    [-] Uploading finished
+2023-12-27 01:05:23,128 - INFO -    [-] Start playlist adding
+2023-12-27 01:05:33,129 - INFO -    [-] Creating playlist
+2023-12-27 01:05:33,131 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-27 01:05:33,339 - INFO - Refreshing due to a 401 (attempt 1/2)
+2023-12-27 01:05:33,340 - INFO - Refreshing access_token
+2023-12-27 01:05:34,336 - INFO -    [-] Created playlist
+2023-12-27 01:05:34,336 - INFO -    [-] Adding playlist in database
+2023-12-27 01:05:34,489 - INFO -    [-] Added playlist in database
+2023-12-27 01:05:44,490 - INFO -    [-] Adding playlist in Youtube
+2023-12-27 01:05:44,711 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-27 01:05:46,530 - INFO -    [-] Added playlist in Youtube
+2023-12-27 01:05:46,530 - INFO -    [-] Finished playlist adding
+2023-12-27 01:05:47,762 - INFO -    [-] Video uploaded successfully
+2023-12-27 02:05:12,195 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-27 02:05:12,252 - INFO - System: Windows
+2023-12-27 02:05:12,252 - INFO - Node Name: PJ_Laptop
+2023-12-27 02:05:12,252 - INFO - Release: 10
+2023-12-27 02:05:12,252 - INFO - Version: 10.0.19045
+2023-12-27 02:05:12,252 - INFO - Machine: AMD64
+2023-12-27 02:05:12,252 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2023-12-27 02:05:12,254 - INFO - [+] Posting: post_im_raveena_daha_3265435200321964076
+2023-12-27 02:05:13,738 - INFO -    [-] Width: 480 Height: 854 fps: 30.0 Duration: 13.4 Aspect ratio: 0.5620608899297423
+2023-12-27 02:05:13,747 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-27 02:05:13,848 - INFO -    [-] Start uploading
+2023-12-27 02:05:22,716 - INFO -    [-] Uploading finished
+2023-12-27 02:05:22,722 - INFO -    [-] Start playlist adding
+2023-12-27 02:05:32,725 - INFO -    [-] Adding playlist in Youtube
+2023-12-27 02:05:32,727 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-27 02:05:33,024 - INFO - Refreshing due to a 401 (attempt 1/2)
+2023-12-27 02:05:33,025 - INFO - Refreshing access_token
+2023-12-27 02:05:34,020 - INFO -    [-] Added playlist in Youtube
+2023-12-27 02:05:34,020 - INFO -    [-] Finished playlist adding
+2023-12-27 02:05:34,574 - INFO -    [-] Video uploaded successfully
+2023-12-27 03:00:10,293 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-27 03:00:10,306 - INFO - System: Linux
+2023-12-27 03:00:10,306 - INFO - Node Name: vmi1472607.contaboserver.net
+2023-12-27 03:00:10,306 - INFO - Release: 5.15.0-91-generic
+2023-12-27 03:00:10,306 - INFO - Version: #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023
+2023-12-27 03:00:10,306 - INFO - Machine: x86_64
+2023-12-27 03:00:10,306 - INFO - Processor: x86_64
+2023-12-27 03:00:10,307 - INFO - [+] Posting: post_geneliad_3259766658568503273
+2023-12-27 03:00:10,394 - INFO -    [-] Width: 1080 Height: 1920 fps: 30.0 Duration: 24.233333333333334 Aspect ratio: 0.5625
+2023-12-27 03:00:10,397 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-27 03:00:10,430 - INFO -    [-] Start uploading
+2023-12-27 03:00:10,611 - INFO - Refreshing due to a 401 (attempt 1/2)
+2023-12-27 03:00:10,612 - INFO - Refreshing access_token
+2023-12-27 03:00:11,498 - WARNING - Encountered 403 Forbidden with reason "forbidden"
+2023-12-27 03:00:11,498 - ERROR -    [-] Error during video upload: <HttpError 403 when requesting None returned "Access forbidden. The request may not be properly authorized.". Details: "[{'message': 'Access forbidden. The request may not be properly authorized.', 'domain': 'youtube.common', 'reason': 'forbidden'}]">
+2023-12-27 03:00:11,498 - ERROR -    [-] Error: <HttpError 403 when requesting None returned "Access forbidden. The request may not be properly authorized.". Details: "[{'message': 'Access forbidden. The request may not be properly authorized.', 'domain': 'youtube.common', 'reason': 'forbidden'}]">

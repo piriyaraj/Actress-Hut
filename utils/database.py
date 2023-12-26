@@ -1,6 +1,7 @@
 import os
 import sqlite3
 
+
 class Database:
     def __init__(self):
         self.db_file_path = os.path.abspath("src/database/playlist.sqlite3")
@@ -18,7 +19,8 @@ class Database:
         return id, status (True/False)
         '''
         try:
-            self.cursor.execute('SELECT id FROM playlists WHERE name = ?', (playListName,))
+            self.cursor.execute(
+                'SELECT id FROM playlists WHERE name = ?', (playListName,))
             row = self.cursor.fetchone()
             if row:
                 return row[0]
@@ -31,7 +33,13 @@ class Database:
     def setPlayListId(self, id, playListName):
         '''add the playlist id and name in the .db file database'''
         try:
-            self.cursor.execute('INSERT INTO playlists (id, name) VALUES (?, ?)', (id, playListName,))
+            self.cursor.execute(
+                'INSERT INTO playlists (id, name) VALUES (?, ?)', (id, playListName,))
             self.conn.commit()
         except sqlite3.Error as e:
             print(e)
+
+
+if __name__ == '__main__':
+    database = Database()
+    database.setPlayListId("test", "Raveena•🌈🦋 ❤️")

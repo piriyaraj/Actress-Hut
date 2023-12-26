@@ -17,7 +17,7 @@ REM Activate the virtual environment
 call venv\Scripts\activate
 
 REM Run the main.py script
-python main.py>outputWindow.log
+python main.py
 
 call git add .
 call git commit -m "update"

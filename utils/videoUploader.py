@@ -1,4 +1,5 @@
 import datetime
+import logging
 import os
 import random
 import time
@@ -12,6 +13,8 @@ from googleapiclient.errors import HttpError
 import httplib2
 from utils.database import Database
 
+import logging
+logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def get_authenticated_service():
     CLIENT_SECRETS_FILE = os.path.abspath("src/credentials/client_secret.json")
@@ -148,7 +151,7 @@ def uploadVideos(nameOfId: str, filePath: str, title: str, description: str, key
         )
     )
     chunksize = -1
-
+    logging.info(f"   [-] Start uploading")
     insert_request = youtube.videos().insert(
         part=",".join(body.keys()),
         body=body,
@@ -158,8 +161,10 @@ def uploadVideos(nameOfId: str, filePath: str, title: str, description: str, key
     insert_request.notifySubscribers = True
     video_id = resumable_upload(insert_request)
     time.sleep(5)
+    logging.info(f"   [-] Uploading finished")
     database = Database()
 
+    logging.info(f"   [-] Start playlist adding")
     tag = nameOfId
     tag_id = database.getPlayListId(tag)
     if tag_id == None:
@@ -176,12 +181,18 @@ def uploadVideos(nameOfId: str, filePath: str, title: str, description: str, key
         #{nameOfId} #CelebrityActress #ShortVideos #Entertainment
         """
         time.sleep(10)
+        logging.info(f"   [-] Creating playlist")
         tag_id = create_playlist(tag, description=description)
+        logging.info(f"   [-] Created playlist")
+        logging.info(f"   [-] Adding playlist in database")
         database.setPlayListId(tag_id, tag)
+        logging.info(f"   [-] Added playlist in database")
+        
     time.sleep(10)
+    logging.info(f"   [-] Adding playlist in Youtube")
     add_video_to_playlist(video_id, tag_id)
-    pass
-
+    logging.info(f"   [-] Added playlist in Youtube")
+    logging.info(f"   [-] Finished playlist adding")
 
 if __name__ == '__main__':
     get_authenticated_service()
