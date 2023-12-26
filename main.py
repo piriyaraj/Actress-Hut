@@ -5,7 +5,7 @@ import utils.tools as tools
 import os
 import shutil
 from discordwebhook import Discord
-
+import logging
 import utils.videoUploader as videoUploader
 
 import cv2
@@ -18,6 +18,8 @@ print("Current Date and Time:", current_datetime)
 
 
 import platform
+logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 
 def print_device_details():
     print(f"System: {platform.system()}")
@@ -26,6 +28,12 @@ def print_device_details():
     print(f"Version: {platform.version()}")
     print(f"Machine: {platform.machine()}")
     print(f"Processor: {platform.processor()}")
+    logging.info(f"System: {platform.system()}")
+    logging.info(f"Node Name: {platform.node()}")
+    logging.info(f"Release: {platform.release()}")
+    logging.info(f"Version: {platform.version()}")
+    logging.info(f"Machine: {platform.machine()}")
+    logging.info(f"Processor: {platform.processor()}")
     
 print_device_details()
 def get_video_info(video_path):
@@ -126,6 +134,7 @@ def uploader(videoPath, user, hour):
 
         return True, "Video was successfully uploaded"
     except Exception as e:
+        logging.error(f"   [-] Error during video upload: {e}")
         print(e)
         return False, e
 
@@ -148,12 +157,14 @@ if len(folderPath) == 0:
     try:
         noVideoHandler()
     except Exception as e:
+        logging.error(f"[+] Error during video download: {e}")
         DiscordNotification(f"ACTRESS Hut(YT)140: {e}")
     finally:
         time.sleep(5)
 folderPath = [file for file in os.listdir() if file.startswith("post_")]
 if len(folderPath) == 0:
-    print("No new folder path found")
+    print("[+]No new folder path found")
+    logging.info("[+]No new folder path found")
     DiscordNotification(f"ACTRESS Hut(YT): No new video available")
     time.sleep(5)
     exit()
@@ -172,6 +183,7 @@ count = 0
 while count < no_of_video:
     i = count
     print(folderPath[i])
+    logging.info(f"[+] Posting: {folderPath[i]}")
     videoList = [f for f in os.listdir(folderPath[i]) if f.endswith('.mp4')]
     if len(videoList) == 0:
         shutil.rmtree(folderPath[i])
@@ -181,6 +193,7 @@ while count < no_of_video:
 
     width, height, fps, duration, aspect_ratio = get_video_info(videoPath)
     print(width, height, fps, duration, aspect_ratio)
+    logging.info(f"   [-] Width: {width} Height: {height} fps: {fps} Duration: {duration} Aspect ratio: {aspect_ratio}")
     if not (isItReel(width, height, fps, duration, aspect_ratio)):
         print("Video is not a reel")
         shutil.rmtree(folderPath[i])
@@ -197,10 +210,12 @@ while count < no_of_video:
     status, msg = uploader(videoPath, profile_name, hour)
     # only msg sent when the appear error
     if not status:
+        logging.error(f"   [-] Error: {msg}")
         DiscordNotification(f"ACTRESS Hut(YT)189: {msg}")
         break
     else:
         DiscordNotification(f"ACTRESS Hut(YT): Video uploaded successfully")
+        logging.info(f"   [-] Video uploaded successfully")
         shutil.rmtree(folderPath[i])
         with open(os.path.abspath("src/time.txt"), "w") as file:
             hour += 3
