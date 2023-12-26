@@ -1,4 +1,4 @@
-Current Date and Time: 2023-12-26 09:05:06.466305
+Current Date and Time: 2023-12-26 10:05:06.473202
 System: Windows
 Node Name: PJ_Laptop
 Release: 10
@@ -10,5 +10,4 @@ post_im_raveena_daha_3264923160184578579
 704 1252 30.0 88.86666666666666 0.5623003194888179
 ==== Trying to upload: ===
 === Video uploding (wait until uploading finish) ===
-Video id yK3fRMlTrGA was successfully uploaded.
-'charmap' codec can't encode characters in position 18-19: character maps to <undefined>
+<HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
