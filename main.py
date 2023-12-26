@@ -1,3 +1,4 @@
+import platform
 import os
 import sqlite3
 import time
@@ -17,8 +18,8 @@ current_datetime = datetime.datetime.now()
 print("Current Date and Time:", current_datetime)
 
 
-import platform
-logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='app.log', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 def print_device_details():
@@ -34,8 +35,11 @@ def print_device_details():
     logging.info(f"Version: {platform.version()}")
     logging.info(f"Machine: {platform.machine()}")
     logging.info(f"Processor: {platform.processor()}")
-    
+
+
 print_device_details()
+
+
 def get_video_info(video_path):
     # Open the video file
     cap = cv2.VideoCapture(video_path)
@@ -144,7 +148,7 @@ def noVideoHandler():
 
 
 try:
-    with open(os.path.abspath("src/time.txt"), "r") as file:
+    with open(os.path.abspath("src/time.txt"), "r", encoding="utf-8") as file:
         hour = int(file.readline())
 except:
     hour = 3
@@ -193,7 +197,8 @@ while count < no_of_video:
 
     width, height, fps, duration, aspect_ratio = get_video_info(videoPath)
     print(width, height, fps, duration, aspect_ratio)
-    logging.info(f"   [-] Width: {width} Height: {height} fps: {fps} Duration: {duration} Aspect ratio: {aspect_ratio}")
+    logging.info(
+        f"   [-] Width: {width} Height: {height} fps: {fps} Duration: {duration} Aspect ratio: {aspect_ratio}")
     if not (isItReel(width, height, fps, duration, aspect_ratio)):
         print("Video is not a reel")
         shutil.rmtree(folderPath[i])
@@ -217,7 +222,7 @@ while count < no_of_video:
         DiscordNotification(f"ACTRESS Hut(YT): Video uploaded successfully")
         logging.info(f"   [-] Video uploaded successfully")
         shutil.rmtree(folderPath[i])
-        with open(os.path.abspath("src/time.txt"), "w") as file:
+        with open(os.path.abspath("src/time.txt"), "w", encoding="utf-8") as file:
             hour += 3
             if hour == 21:
                 hour = 3
