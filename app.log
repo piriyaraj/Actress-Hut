@@ -201,3 +201,34 @@
 2023-12-27 09:07:48,130 - INFO -    [-] Added playlist in Youtube
 2023-12-27 09:07:48,130 - INFO -    [-] Finished playlist adding
 2023-12-27 09:07:48,779 - INFO -    [-] Video uploaded successfully
+2023-12-27 10:05:04,221 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-27 10:05:04,242 - INFO - System: Windows
+2023-12-27 10:05:04,242 - INFO - Node Name: PJ_Laptop
+2023-12-27 10:05:04,242 - INFO - Release: 10
+2023-12-27 10:05:04,242 - INFO - Version: 10.0.19045
+2023-12-27 10:05:04,242 - INFO - Machine: AMD64
+2023-12-27 10:05:04,243 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2023-12-27 10:05:04,243 - INFO - [+] Posting: post_im_raveena_daha_3266336274545182313
+2023-12-27 10:05:04,270 - INFO -    [-] Width: 1080 Height: 1920 fps: 29.0 Duration: 89.44827586206897 Aspect ratio: 0.5625
+2023-12-27 10:05:04,274 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-27 10:05:04,355 - INFO -    [-] Start uploading
+2023-12-28 10:05:15,118 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-28 10:05:15,184 - INFO - System: Windows
+2023-12-28 10:05:15,184 - INFO - Node Name: PJ_Laptop
+2023-12-28 10:05:15,184 - INFO - Release: 10
+2023-12-28 10:05:15,184 - INFO - Version: 10.0.19045
+2023-12-28 10:05:15,184 - INFO - Machine: AMD64
+2023-12-28 10:05:15,184 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2023-12-28 10:05:15,186 - INFO - [+] Posting: post_im_raveena_daha_3266336274545182313
+2023-12-28 10:05:16,470 - INFO -    [-] Width: 1080 Height: 1920 fps: 29.0 Duration: 89.44827586206897 Aspect ratio: 0.5625
+2023-12-28 10:05:16,504 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-28 10:05:16,972 - INFO -    [-] Start uploading
+2023-12-28 10:05:17,628 - INFO - Refreshing due to a 401 (attempt 1/2)
+2023-12-28 10:05:17,634 - INFO - Refreshing access_token
+2023-12-28 10:05:28,600 - INFO -    [-] Uploading finished
+2023-12-28 10:05:28,681 - INFO -    [-] Start playlist adding
+2023-12-28 10:05:38,682 - INFO -    [-] Adding playlist in Youtube
+2023-12-28 10:05:38,731 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-28 10:05:39,716 - INFO -    [-] Added playlist in Youtube
+2023-12-28 10:05:39,716 - INFO -    [-] Finished playlist adding
+2023-12-28 10:05:40,246 - INFO -    [-] Video uploaded successfully
