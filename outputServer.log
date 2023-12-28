@@ -1,4 +1,4 @@
-Current Date and Time: 2023-12-28 03:00:10.189779
+Current Date and Time: 2023-12-29 03:00:06.066918
 System: Linux
 Node Name: vmi1472607.contaboserver.net
 Release: 5.15.0-91-generic
@@ -10,4 +10,5 @@ post_geneliad_3259766658568503273
 1080 1920 30.0 24.233333333333334 0.5625
 ==== Trying to upload: ===
 === Video uploding (wait until uploading finish) ===
-<HttpError 403 when requesting None returned "Access forbidden. The request may not be properly authorized.". Details: "[{'message': 'Access forbidden. The request may not be properly authorized.', 'domain': 'youtube.common', 'reason': 'forbidden'}]">
+Video id jDcjunVnEKY was successfully uploaded.
+Playlist 'Genelia Deshmukh' created successfully with id 'PLB-pM6gaYSMBTef1lKWQX5PmqMTRWYeqP'
