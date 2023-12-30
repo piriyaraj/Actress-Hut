@@ -515,3 +515,11 @@
 2023-12-30 09:05:43,828 - INFO -    [-] Added playlist in Youtube
 2023-12-30 09:05:43,828 - INFO -    [-] Finished playlist adding
 2023-12-30 09:05:44,344 - INFO -    [-] Video uploaded successfully
+2023-12-30 10:05:15,334 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-30 10:05:15,472 - INFO - System: Windows
+2023-12-30 10:05:15,472 - INFO - Node Name: PJ_Laptop
+2023-12-30 10:05:15,472 - INFO - Release: 10
+2023-12-30 10:05:15,472 - INFO - Version: 10.0.19045
+2023-12-30 10:05:15,472 - INFO - Machine: AMD64
+2023-12-30 10:05:15,472 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2023-12-30 10:05:29,773 - INFO - [+]No new folder path found
