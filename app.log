@@ -523,3 +523,11 @@
 2023-12-30 10:05:15,472 - INFO - Machine: AMD64
 2023-12-30 10:05:15,472 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
 2023-12-30 10:05:29,773 - INFO - [+]No new folder path found
+2023-12-30 11:05:16,473 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-30 11:05:16,598 - INFO - System: Windows
+2023-12-30 11:05:16,598 - INFO - Node Name: PJ_Laptop
+2023-12-30 11:05:16,598 - INFO - Release: 10
+2023-12-30 11:05:16,598 - INFO - Version: 10.0.19045
+2023-12-30 11:05:16,598 - INFO - Machine: AMD64
+2023-12-30 11:05:16,598 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2023-12-30 11:05:34,694 - INFO - [+]No new folder path found
