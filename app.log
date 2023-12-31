@@ -635,3 +635,28 @@
 2023-12-31 11:05:08,980 - INFO - Machine: AMD64
 2023-12-31 11:05:08,980 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
 2023-12-31 11:05:17,274 - INFO - [+]No new folder path found
+2023-12-31 12:05:19,166 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-31 12:05:19,291 - INFO - System: Windows
+2023-12-31 12:05:19,291 - INFO - Node Name: PJ_Laptop
+2023-12-31 12:05:19,291 - INFO - Release: 10
+2023-12-31 12:05:19,291 - INFO - Version: 10.0.19045
+2023-12-31 12:05:19,291 - INFO - Machine: AMD64
+2023-12-31 12:05:19,291 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2023-12-31 12:06:17,994 - INFO - [+] Posting: post_aliaabhatt_3269223543282384211
+2023-12-31 12:06:19,088 - INFO -    [-] Width: 1080 Height: 1920 fps: 30.0 Duration: 15.933333333333334 Aspect ratio: 0.5625
+2023-12-31 12:06:19,104 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-31 12:06:22,135 - INFO -    [-] Start uploading
+2023-12-31 12:06:22,416 - INFO - Refreshing due to a 401 (attempt 1/2)
+2023-12-31 12:06:22,416 - INFO - Refreshing access_token
+2023-12-31 12:06:31,839 - INFO -    [-] Uploading finished
+2023-12-31 12:06:31,870 - INFO -    [-] Start playlist adding
+2023-12-31 12:06:41,877 - INFO -    [-] Creating playlist
+2023-12-31 12:06:41,877 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-31 12:06:42,830 - INFO -    [-] Created playlist
+2023-12-31 12:06:42,830 - INFO -    [-] Adding playlist in database
+2023-12-31 12:06:42,970 - INFO -    [-] Added playlist in database
+2023-12-31 12:06:52,971 - INFO -    [-] Adding playlist in Youtube
+2023-12-31 12:06:52,971 - INFO - file_cache is only supported with oauth2client<4.0.0
+2023-12-31 12:06:53,768 - INFO -    [-] Added playlist in Youtube
+2023-12-31 12:06:53,768 - INFO -    [-] Finished playlist adding
+2023-12-31 12:06:56,268 - INFO -    [-] Video uploaded successfully
