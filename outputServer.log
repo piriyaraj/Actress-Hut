@@ -1,4 +1,4 @@
-Current Date and Time: 2024-01-01 03:00:10.411110
+Current Date and Time: 2024-01-02 03:00:08.721930
 System: Linux
 Node Name: vmi1472607.contaboserver.net
 Release: 5.15.0-91-generic
@@ -6,8 +6,8 @@ Version: #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023
 Machine: x86_64
 Processor: x86_64
 Database 'data.sqlite3' already exists.
-post_amalapaul.__3259999142666554229
-720 1280 30.0 44.266666666666666 0.5625
+post_amalapaul.__3260798071024721123
+720 1280 30.0 35.666666666666664 0.5625
 ==== Trying to upload: ===
 === Video uploding (wait until uploading finish) ===
-Video id ncUwKelASmA was successfully uploaded.
+<HttpError 403 when requesting None returned "Access forbidden. The request may not be properly authorized.". Details: "[{'message': 'Access forbidden. The request may not be properly authorized.', 'domain': 'youtube.common', 'reason': 'forbidden'}]">
