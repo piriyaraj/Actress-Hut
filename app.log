@@ -1227,3 +1227,21 @@
 2024-01-04 09:07:57,434 - INFO -    [-] Added playlist in Youtube
 2024-01-04 09:07:57,434 - INFO -    [-] Finished playlist adding
 2024-01-04 09:07:58,090 - INFO -    [-] Video uploaded successfully
+2024-01-04 10:05:05,832 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-04 10:05:05,879 - INFO - System: Windows
+2024-01-04 10:05:05,879 - INFO - Node Name: PJ_Laptop
+2024-01-04 10:05:05,879 - INFO - Release: 10
+2024-01-04 10:05:05,879 - INFO - Version: 10.0.19045
+2024-01-04 10:05:05,879 - INFO - Machine: AMD64
+2024-01-04 10:05:05,879 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-04 10:05:05,895 - INFO - [+] Posting: post_im_raveena_daha_3272125086983509138
+2024-01-04 10:05:05,910 - INFO -    [-] Width: 1080 Height: 1920 fps: 29.97 Duration: 29.5628962295629 Aspect ratio: 0.5625
+2024-01-04 10:05:05,926 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-04 10:05:06,004 - INFO -    [-] Start uploading
+2024-01-04 10:05:16,304 - INFO -    [-] Uploading finished
+2024-01-04 10:05:16,304 - INFO -    [-] Start playlist adding
+2024-01-04 10:05:26,306 - INFO -    [-] Adding playlist in Youtube
+2024-01-04 10:05:26,306 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-04 10:05:27,196 - INFO -    [-] Added playlist in Youtube
+2024-01-04 10:05:27,212 - INFO -    [-] Finished playlist adding
+2024-01-04 10:05:27,837 - INFO -    [-] Video uploaded successfully
