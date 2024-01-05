@@ -1361,3 +1361,28 @@
 2024-01-05 10:05:06,011 - INFO - Machine: AMD64
 2024-01-05 10:05:06,011 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
 2024-01-05 10:05:23,312 - INFO - [+]No new folder path found
+2024-01-05 11:05:06,000 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-05 11:05:06,063 - INFO - System: Windows
+2024-01-05 11:05:06,063 - INFO - Node Name: PJ_Laptop
+2024-01-05 11:05:06,063 - INFO - Release: 10
+2024-01-05 11:05:06,063 - INFO - Version: 10.0.19045
+2024-01-05 11:05:06,063 - INFO - Machine: AMD64
+2024-01-05 11:05:06,063 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-05 11:06:11,535 - INFO - [+] Posting: post_aishwaryarajessh_3272743636947078164
+2024-01-05 11:06:12,707 - INFO -    [-] Width: 1080 Height: 1920 fps: 25.0 Duration: 21.12 Aspect ratio: 0.5625
+2024-01-05 11:06:12,707 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-05 11:06:15,722 - INFO -    [-] Start uploading
+2024-01-05 11:06:15,988 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-05 11:06:15,988 - INFO - Refreshing access_token
+2024-01-05 11:06:25,626 - INFO -    [-] Uploading finished
+2024-01-05 11:06:25,658 - INFO -    [-] Start playlist adding
+2024-01-05 11:06:35,662 - INFO -    [-] Creating playlist
+2024-01-05 11:06:35,662 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-05 11:06:37,068 - INFO -    [-] Created playlist
+2024-01-05 11:06:37,084 - INFO -    [-] Adding playlist in database
+2024-01-05 11:06:37,224 - INFO -    [-] Added playlist in database
+2024-01-05 11:06:47,234 - INFO -    [-] Adding playlist in Youtube
+2024-01-05 11:06:47,234 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-05 11:06:48,953 - INFO -    [-] Added playlist in Youtube
+2024-01-05 11:06:48,953 - INFO -    [-] Finished playlist adding
+2024-01-05 11:06:49,484 - INFO -    [-] Video uploaded successfully
