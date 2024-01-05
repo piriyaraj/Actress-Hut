@@ -1409,3 +1409,28 @@
 2024-01-05 12:05:55,366 - INFO -    [-] Added playlist in Youtube
 2024-01-05 12:05:55,366 - INFO -    [-] Finished playlist adding
 2024-01-05 12:05:55,882 - INFO -    [-] Video uploaded successfully
+2024-01-06 00:05:16,100 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-06 00:05:16,242 - INFO - System: Windows
+2024-01-06 00:05:16,243 - INFO - Node Name: PJ_Laptop
+2024-01-06 00:05:16,243 - INFO - Release: 10
+2024-01-06 00:05:16,243 - INFO - Version: 10.0.19045
+2024-01-06 00:05:16,243 - INFO - Machine: AMD64
+2024-01-06 00:05:16,243 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-06 00:05:16,244 - INFO - [+] Posting: post_tamannaahspeaks_3272855880455995027
+2024-01-06 00:05:17,754 - INFO -    [-] Width: 1080 Height: 1920 fps: 23.976 Duration: 42.41741741741742 Aspect ratio: 0.5625
+2024-01-06 00:05:17,763 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-06 00:05:20,742 - INFO -    [-] Start uploading
+2024-01-06 00:05:21,090 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-06 00:05:21,091 - INFO - Refreshing access_token
+2024-01-06 00:05:31,413 - INFO -    [-] Uploading finished
+2024-01-06 00:05:31,452 - INFO -    [-] Start playlist adding
+2024-01-06 00:05:41,455 - INFO -    [-] Creating playlist
+2024-01-06 00:05:41,465 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-06 00:05:42,406 - INFO -    [-] Created playlist
+2024-01-06 00:05:42,406 - INFO -    [-] Adding playlist in database
+2024-01-06 00:05:42,590 - INFO -    [-] Added playlist in database
+2024-01-06 00:05:52,590 - INFO -    [-] Adding playlist in Youtube
+2024-01-06 00:05:52,592 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-06 00:05:53,513 - INFO -    [-] Added playlist in Youtube
+2024-01-06 00:05:53,513 - INFO -    [-] Finished playlist adding
+2024-01-06 00:05:54,057 - INFO -    [-] Video uploaded successfully
