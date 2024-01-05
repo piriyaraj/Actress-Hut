@@ -1386,3 +1386,26 @@
 2024-01-05 11:06:48,953 - INFO -    [-] Added playlist in Youtube
 2024-01-05 11:06:48,953 - INFO -    [-] Finished playlist adding
 2024-01-05 11:06:49,484 - INFO -    [-] Video uploaded successfully
+2024-01-05 12:05:18,911 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-05 12:05:19,020 - INFO - System: Windows
+2024-01-05 12:05:19,020 - INFO - Node Name: PJ_Laptop
+2024-01-05 12:05:19,020 - INFO - Release: 10
+2024-01-05 12:05:19,020 - INFO - Version: 10.0.19045
+2024-01-05 12:05:19,051 - INFO - Machine: AMD64
+2024-01-05 12:05:19,051 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-05 12:05:19,051 - INFO - [+] Posting: post_katrinakaif_3272796417297947873
+2024-01-05 12:05:20,364 - INFO -    [-] Width: 1916 Height: 1080 fps: 24.0 Duration: 63.958333333333336 Aspect ratio: 1.7740740740740741
+2024-01-05 12:05:20,395 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-05 12:05:23,489 - INFO -    [-] Start uploading
+2024-01-05 12:05:33,316 - INFO -    [-] Uploading finished
+2024-01-05 12:05:33,363 - INFO -    [-] Start playlist adding
+2024-01-05 12:05:43,364 - INFO -    [-] Creating playlist
+2024-01-05 12:05:43,364 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-05 12:05:44,318 - INFO -    [-] Created playlist
+2024-01-05 12:05:44,318 - INFO -    [-] Adding playlist in database
+2024-01-05 12:05:44,411 - INFO -    [-] Added playlist in database
+2024-01-05 12:05:54,413 - INFO -    [-] Adding playlist in Youtube
+2024-01-05 12:05:54,413 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-05 12:05:55,366 - INFO -    [-] Added playlist in Youtube
+2024-01-05 12:05:55,366 - INFO -    [-] Finished playlist adding
+2024-01-05 12:05:55,882 - INFO -    [-] Video uploaded successfully
