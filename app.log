@@ -1502,3 +1502,23 @@
 2024-01-06 07:05:12,548 - INFO - Machine: AMD64
 2024-01-06 07:05:12,548 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
 2024-01-06 07:05:19,296 - INFO - [+]No new folder path found
+2024-01-06 08:05:06,683 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-06 08:05:06,745 - INFO - System: Windows
+2024-01-06 08:05:06,745 - INFO - Node Name: PJ_Laptop
+2024-01-06 08:05:06,745 - INFO - Release: 10
+2024-01-06 08:05:06,745 - INFO - Version: 10.0.19045
+2024-01-06 08:05:06,746 - INFO - Machine: AMD64
+2024-01-06 08:05:06,746 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-06 08:06:37,534 - INFO - [+] Posting: post_athulyaofficial_3273583502825925512
+2024-01-06 08:06:38,683 - INFO -    [-] Width: 1080 Height: 1920 fps: 30.0 Duration: 13.566666666666666 Aspect ratio: 0.5625
+2024-01-06 08:06:38,695 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-06 08:06:41,915 - INFO -    [-] Start uploading
+2024-01-06 08:06:42,189 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-06 08:06:42,189 - INFO - Refreshing access_token
+2024-01-06 08:06:52,164 - INFO -    [-] Uploading finished
+2024-01-06 08:06:52,201 - INFO -    [-] Start playlist adding
+2024-01-06 08:07:02,204 - INFO -    [-] Adding playlist in Youtube
+2024-01-06 08:07:02,216 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-06 08:07:03,255 - INFO -    [-] Added playlist in Youtube
+2024-01-06 08:07:03,255 - INFO -    [-] Finished playlist adding
+2024-01-06 08:07:03,910 - INFO -    [-] Video uploaded successfully
