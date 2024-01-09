@@ -1976,3 +1976,28 @@
 2024-01-10 00:06:42,614 - INFO -    [-] Added playlist in Youtube
 2024-01-10 00:06:42,614 - INFO -    [-] Finished playlist adding
 2024-01-10 00:06:43,254 - INFO -    [-] Video uploaded successfully
+2024-01-10 01:05:13,765 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-10 01:05:13,890 - INFO - System: Windows
+2024-01-10 01:05:13,890 - INFO - Node Name: PJ_Laptop
+2024-01-10 01:05:13,890 - INFO - Release: 10
+2024-01-10 01:05:13,890 - INFO - Version: 10.0.19045
+2024-01-10 01:05:13,890 - INFO - Machine: AMD64
+2024-01-10 01:05:13,890 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-10 01:06:26,384 - INFO - [+] Posting: post_manju.warrier_3276436565223392245
+2024-01-10 01:06:27,683 - INFO -    [-] Width: 1080 Height: 1920 fps: 30.0 Duration: 32.5 Aspect ratio: 0.5625
+2024-01-10 01:06:27,730 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-10 01:06:27,900 - INFO -    [-] Start uploading
+2024-01-10 01:06:28,833 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-10 01:06:28,833 - INFO - Refreshing access_token
+2024-01-10 01:06:41,708 - INFO -    [-] Uploading finished
+2024-01-10 01:06:41,862 - INFO -    [-] Start playlist adding
+2024-01-10 01:06:51,865 - INFO -    [-] Creating playlist
+2024-01-10 01:06:51,900 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-10 01:06:53,425 - INFO -    [-] Created playlist
+2024-01-10 01:06:53,426 - INFO -    [-] Adding playlist in database
+2024-01-10 01:06:53,566 - INFO -    [-] Added playlist in database
+2024-01-10 01:07:03,566 - INFO -    [-] Adding playlist in Youtube
+2024-01-10 01:07:03,570 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-10 01:07:05,097 - INFO -    [-] Added playlist in Youtube
+2024-01-10 01:07:05,097 - INFO -    [-] Finished playlist adding
+2024-01-10 01:07:05,660 - INFO -    [-] Video uploaded successfully
