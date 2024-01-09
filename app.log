@@ -2001,3 +2001,21 @@
 2024-01-10 01:07:05,097 - INFO -    [-] Added playlist in Youtube
 2024-01-10 01:07:05,097 - INFO -    [-] Finished playlist adding
 2024-01-10 01:07:05,660 - INFO -    [-] Video uploaded successfully
+2024-01-10 02:05:14,350 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-10 02:05:14,444 - INFO - System: Windows
+2024-01-10 02:05:14,444 - INFO - Node Name: PJ_Laptop
+2024-01-10 02:05:14,444 - INFO - Release: 10
+2024-01-10 02:05:14,444 - INFO - Version: 10.0.19045
+2024-01-10 02:05:14,444 - INFO - Machine: AMD64
+2024-01-10 02:05:14,444 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-10 02:05:14,444 - INFO - [+] Posting: post_tamannaahspeaks_3276291010198863643
+2024-01-10 02:05:15,694 - INFO -    [-] Width: 1080 Height: 1920 fps: 30.0 Duration: 8.733333333333333 Aspect ratio: 0.5625
+2024-01-10 02:05:15,710 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-10 02:05:15,788 - INFO -    [-] Start uploading
+2024-01-10 02:05:26,047 - INFO -    [-] Uploading finished
+2024-01-10 02:05:26,063 - INFO -    [-] Start playlist adding
+2024-01-10 02:05:36,074 - INFO -    [-] Adding playlist in Youtube
+2024-01-10 02:05:36,074 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-10 02:05:37,058 - INFO -    [-] Added playlist in Youtube
+2024-01-10 02:05:37,058 - INFO -    [-] Finished playlist adding
+2024-01-10 02:05:37,620 - INFO -    [-] Video uploaded successfully
