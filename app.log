@@ -1900,3 +1900,11 @@
 2024-01-09 05:05:51,891 - INFO -    [-] Added playlist in Youtube
 2024-01-09 05:05:51,954 - INFO -    [-] Finished playlist adding
 2024-01-09 05:05:52,626 - INFO -    [-] Video uploaded successfully
+2024-01-09 06:05:06,036 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-09 06:05:06,098 - INFO - System: Windows
+2024-01-09 06:05:06,114 - INFO - Node Name: PJ_Laptop
+2024-01-09 06:05:06,114 - INFO - Release: 10
+2024-01-09 06:05:06,114 - INFO - Version: 10.0.19045
+2024-01-09 06:05:06,114 - INFO - Machine: AMD64
+2024-01-09 06:05:06,114 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-09 06:05:12,576 - INFO - [+]No new folder path found
