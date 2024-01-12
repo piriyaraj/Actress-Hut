@@ -2556,6 +2556,7 @@
 2024-01-12 02:05:15,357 - INFO - Machine: AMD64
 2024-01-12 02:05:15,357 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
 2024-01-12 02:05:21,845 - INFO - [+]No new folder path found
+<<<<<<< HEAD
 >>>>>>> 640daed37d5538c5198938ce54a06ba0938555fd
 2024-01-12 03:00:05,831 - INFO - file_cache is only supported with oauth2client<4.0.0
 2024-01-12 03:00:05,843 - INFO - System: Linux
@@ -2573,3 +2574,151 @@
 2024-01-12 03:00:06,703 - WARNING - Encountered 403 Forbidden with reason "forbidden"
 2024-01-12 03:00:06,703 - ERROR -    [-] Error during video upload: <HttpError 403 when requesting None returned "Access forbidden. The request may not be properly authorized.". Details: "[{'message': 'Access forbidden. The request may not be properly authorized.', 'domain': 'youtube.common', 'reason': 'forbidden'}]">
 2024-01-12 03:00:06,703 - ERROR -    [-] Error: <HttpError 403 when requesting None returned "Access forbidden. The request may not be properly authorized.". Details: "[{'message': 'Access forbidden. The request may not be properly authorized.', 'domain': 'youtube.common', 'reason': 'forbidden'}]">
+=======
+2024-01-12 03:05:06,915 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-12 03:05:06,961 - INFO - System: Windows
+2024-01-12 03:05:06,961 - INFO - Node Name: PJ_Laptop
+2024-01-12 03:05:06,961 - INFO - Release: 10
+2024-01-12 03:05:06,961 - INFO - Version: 10.0.19045
+2024-01-12 03:05:06,961 - INFO - Machine: AMD64
+2024-01-12 03:05:06,961 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-12 03:05:14,090 - INFO - [+]No new folder path found
+2024-01-12 04:05:06,900 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-12 04:05:06,963 - INFO - System: Windows
+2024-01-12 04:05:06,963 - INFO - Node Name: PJ_Laptop
+2024-01-12 04:05:06,963 - INFO - Release: 10
+2024-01-12 04:05:06,963 - INFO - Version: 10.0.19045
+2024-01-12 04:05:06,963 - INFO - Machine: AMD64
+2024-01-12 04:05:06,963 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-12 04:05:13,155 - INFO - [+]No new folder path found
+2024-01-12 05:05:16,155 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-12 05:05:16,248 - INFO - System: Windows
+2024-01-12 05:05:16,248 - INFO - Node Name: PJ_Laptop
+2024-01-12 05:05:16,248 - INFO - Release: 10
+2024-01-12 05:05:16,248 - INFO - Version: 10.0.19045
+2024-01-12 05:05:16,248 - INFO - Machine: AMD64
+2024-01-12 05:05:16,248 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-12 05:05:22,593 - INFO - [+]No new folder path found
+2024-01-12 06:05:06,939 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-12 06:05:07,002 - INFO - System: Windows
+2024-01-12 06:05:07,002 - INFO - Node Name: PJ_Laptop
+2024-01-12 06:05:07,002 - INFO - Release: 10
+2024-01-12 06:05:07,002 - INFO - Version: 10.0.19045
+2024-01-12 06:05:07,002 - INFO - Machine: AMD64
+2024-01-12 06:05:07,002 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-12 06:05:14,104 - INFO - [+]No new folder path found
+2024-01-12 07:05:17,024 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-12 07:05:17,118 - INFO - System: Windows
+2024-01-12 07:05:17,118 - INFO - Node Name: PJ_Laptop
+2024-01-12 07:05:17,118 - INFO - Release: 10
+2024-01-12 07:05:17,118 - INFO - Version: 10.0.19045
+2024-01-12 07:05:17,118 - INFO - Machine: AMD64
+2024-01-12 07:05:17,118 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-12 07:05:23,793 - INFO - [+]No new folder path found
+2024-01-12 08:05:08,537 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-12 08:05:08,599 - INFO - System: Windows
+2024-01-12 08:05:08,599 - INFO - Node Name: PJ_Laptop
+2024-01-12 08:05:08,599 - INFO - Release: 10
+2024-01-12 08:05:08,599 - INFO - Version: 10.0.19045
+2024-01-12 08:05:08,599 - INFO - Machine: AMD64
+2024-01-12 08:05:08,599 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-12 08:05:14,974 - INFO - [+]No new folder path found
+2024-01-12 09:05:08,798 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-12 09:05:08,861 - INFO - System: Windows
+2024-01-12 09:05:08,861 - INFO - Node Name: PJ_Laptop
+2024-01-12 09:05:08,861 - INFO - Release: 10
+2024-01-12 09:05:08,861 - INFO - Version: 10.0.19045
+2024-01-12 09:05:08,861 - INFO - Machine: AMD64
+2024-01-12 09:05:08,861 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-12 09:05:16,121 - INFO - [+]No new folder path found
+2024-01-12 10:05:06,801 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-12 10:05:06,863 - INFO - System: Windows
+2024-01-12 10:05:06,863 - INFO - Node Name: PJ_Laptop
+2024-01-12 10:05:06,863 - INFO - Release: 10
+2024-01-12 10:05:06,863 - INFO - Version: 10.0.19045
+2024-01-12 10:05:06,863 - INFO - Machine: AMD64
+2024-01-12 10:05:06,863 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-12 10:05:14,708 - INFO - [+]No new folder path found
+2024-01-12 11:05:06,783 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-12 11:05:06,846 - INFO - System: Windows
+2024-01-12 11:05:06,846 - INFO - Node Name: PJ_Laptop
+2024-01-12 11:05:06,846 - INFO - Release: 10
+2024-01-12 11:05:06,846 - INFO - Version: 10.0.19045
+2024-01-12 11:05:06,846 - INFO - Machine: AMD64
+2024-01-12 11:05:06,846 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-12 11:05:17,364 - INFO - [+]No new folder path found
+2024-01-13 00:05:16,382 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-13 00:05:16,501 - INFO - System: Windows
+2024-01-13 00:05:16,502 - INFO - Node Name: PJ_Laptop
+2024-01-13 00:05:16,502 - INFO - Release: 10
+2024-01-13 00:05:16,502 - INFO - Version: 10.0.19045
+2024-01-13 00:05:16,502 - INFO - Machine: AMD64
+2024-01-13 00:05:16,502 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-13 00:08:16,730 - INFO - [+] Posting: post_aishwaryarajessh_3277998556243681549
+2024-01-13 00:08:17,828 - INFO -    [-] Width: 1080 Height: 1920 fps: 25.0 Duration: 38.48 Aspect ratio: 0.5625
+2024-01-13 00:08:17,836 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-13 00:08:21,060 - INFO -    [-] Start uploading
+2024-01-13 00:08:21,524 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-13 00:08:21,525 - INFO - Refreshing access_token
+2024-01-13 00:08:32,579 - INFO -    [-] Uploading finished
+2024-01-13 00:08:33,225 - INFO -    [-] Start playlist adding
+2024-01-13 00:08:43,226 - INFO -    [-] Adding playlist in Youtube
+2024-01-13 00:08:43,236 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-13 00:08:44,226 - INFO -    [-] Added playlist in Youtube
+2024-01-13 00:08:44,226 - INFO -    [-] Finished playlist adding
+2024-01-13 00:08:44,765 - INFO -    [-] Video uploaded successfully
+2024-01-13 01:05:13,885 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-13 01:05:13,986 - INFO - System: Windows
+2024-01-13 01:05:13,987 - INFO - Node Name: PJ_Laptop
+2024-01-13 01:05:13,987 - INFO - Release: 10
+2024-01-13 01:05:13,987 - INFO - Version: 10.0.19045
+2024-01-13 01:05:13,987 - INFO - Machine: AMD64
+2024-01-13 01:05:13,987 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-13 01:05:13,988 - INFO - [+] Posting: post_im_raveena_daha_3277228057995781183
+2024-01-13 01:05:15,149 - INFO -    [-] Width: 1080 Height: 1920 fps: 29.97 Duration: 75.50884217550885 Aspect ratio: 0.5625
+2024-01-13 01:05:15,157 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-13 01:05:15,254 - INFO -    [-] Start uploading
+2024-01-13 01:05:29,361 - INFO -    [-] Uploading finished
+2024-01-13 01:05:29,409 - INFO -    [-] Start playlist adding
+2024-01-13 01:05:39,411 - INFO -    [-] Adding playlist in Youtube
+2024-01-13 01:05:39,413 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-13 01:05:40,410 - INFO -    [-] Added playlist in Youtube
+2024-01-13 01:05:40,410 - INFO -    [-] Finished playlist adding
+2024-01-13 01:05:40,914 - INFO -    [-] Video uploaded successfully
+2024-01-13 02:05:11,881 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-13 02:05:12,075 - INFO - System: Windows
+2024-01-13 02:05:12,075 - INFO - Node Name: PJ_Laptop
+2024-01-13 02:05:12,075 - INFO - Release: 10
+2024-01-13 02:05:12,075 - INFO - Version: 10.0.19045
+2024-01-13 02:05:12,076 - INFO - Machine: AMD64
+2024-01-13 02:05:12,076 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-13 02:05:12,077 - INFO - [+] Posting: post_kalyanipriyadarshan_3276942631623914072
+2024-01-13 02:05:13,236 - INFO -    [-] Width: 1080 Height: 608 fps: 25.0 Duration: 50.0 Aspect ratio: 1.7763157894736843
+2024-01-13 02:05:13,249 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-13 02:05:13,345 - INFO -    [-] Start uploading
+2024-01-13 02:05:13,723 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-13 02:05:13,724 - INFO - Refreshing access_token
+2024-01-13 02:05:25,394 - INFO -    [-] Uploading finished
+2024-01-13 02:05:25,420 - INFO -    [-] Start playlist adding
+2024-01-13 02:05:35,421 - INFO -    [-] Adding playlist in Youtube
+2024-01-13 02:05:35,432 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-13 02:05:36,364 - INFO -    [-] Added playlist in Youtube
+2024-01-13 02:05:36,364 - INFO -    [-] Finished playlist adding
+2024-01-13 02:05:37,006 - INFO -    [-] Video uploaded successfully
+>>>>>>> 6e53a3b2c8724312da53f5f3198ea6c4780ac106
+2024-01-13 03:00:06,642 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-13 03:00:06,656 - INFO - System: Linux
+2024-01-13 03:00:06,656 - INFO - Node Name: vmi1472607.contaboserver.net
+2024-01-13 03:00:06,656 - INFO - Release: 5.15.0-91-generic
+2024-01-13 03:00:06,657 - INFO - Version: #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023
+2024-01-13 03:00:06,657 - INFO - Machine: x86_64
+2024-01-13 03:00:06,657 - INFO - Processor: x86_64
+2024-01-13 03:00:06,657 - INFO - [+] Posting: post_amalapaul.__3260798071024721123
+2024-01-13 03:00:06,754 - INFO -    [-] Width: 720 Height: 1280 fps: 30.0 Duration: 35.666666666666664 Aspect ratio: 0.5625
+2024-01-13 03:00:06,757 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-13 03:00:06,828 - INFO -    [-] Start uploading
+2024-01-13 03:00:07,031 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-13 03:00:07,032 - INFO - Refreshing access_token
+2024-01-13 03:00:07,839 - WARNING - Encountered 403 Forbidden with reason "forbidden"
+2024-01-13 03:00:07,840 - ERROR -    [-] Error during video upload: <HttpError 403 when requesting None returned "Access forbidden. The request may not be properly authorized.". Details: "[{'message': 'Access forbidden. The request may not be properly authorized.', 'domain': 'youtube.common', 'reason': 'forbidden'}]">
+2024-01-13 03:00:07,840 - ERROR -    [-] Error: <HttpError 403 when requesting None returned "Access forbidden. The request may not be properly authorized.". Details: "[{'message': 'Access forbidden. The request may not be properly authorized.', 'domain': 'youtube.common', 'reason': 'forbidden'}]">
