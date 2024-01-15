@@ -1,4 +1,4 @@
-Current Date and Time: 2024-01-15 03:00:05.876983
+Current Date and Time: 2024-01-16 03:00:10.276776
 System: Linux
 Node Name: vmi1472607.contaboserver.net
 Release: 5.15.0-91-generic
@@ -10,4 +10,4 @@ post_amalapaul.__3260798071024721123
 720 1280 30.0 35.666666666666664 0.5625
 ==== Trying to upload: ===
 === Video uploding (wait until uploading finish) ===
-<HttpError 403 when requesting None returned "Access forbidden. The request may not be properly authorized.". Details: "[{'message': 'Access forbidden. The request may not be properly authorized.', 'domain': 'youtube.common', 'reason': 'forbidden'}]">
+Video id 4ONOW80d44s was successfully uploaded.

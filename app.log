@@ -2933,6 +2933,7 @@
 2024-01-15 02:05:34,244 - INFO -    [-] Added playlist in Youtube
 2024-01-15 02:05:34,244 - INFO -    [-] Finished playlist adding
 2024-01-15 02:05:34,912 - INFO -    [-] Video uploaded successfully
+<<<<<<< HEAD
 >>>>>>> 7e0a56cd84857da56c2474668b2546fdcb2a1c94
 2024-01-15 03:00:05,866 - INFO - file_cache is only supported with oauth2client<4.0.0
 2024-01-15 03:00:05,880 - INFO - System: Linux
@@ -2950,3 +2951,221 @@
 2024-01-15 03:00:06,809 - WARNING - Encountered 403 Forbidden with reason "forbidden"
 2024-01-15 03:00:06,809 - ERROR -    [-] Error during video upload: <HttpError 403 when requesting None returned "Access forbidden. The request may not be properly authorized.". Details: "[{'message': 'Access forbidden. The request may not be properly authorized.', 'domain': 'youtube.common', 'reason': 'forbidden'}]">
 2024-01-15 03:00:06,809 - ERROR -    [-] Error: <HttpError 403 when requesting None returned "Access forbidden. The request may not be properly authorized.". Details: "[{'message': 'Access forbidden. The request may not be properly authorized.', 'domain': 'youtube.common', 'reason': 'forbidden'}]">
+=======
+2024-01-15 03:05:06,839 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 03:05:06,902 - INFO - System: Windows
+2024-01-15 03:05:06,903 - INFO - Node Name: PJ_Laptop
+2024-01-15 03:05:06,903 - INFO - Release: 10
+2024-01-15 03:05:06,903 - INFO - Version: 10.0.19045
+2024-01-15 03:05:06,903 - INFO - Machine: AMD64
+2024-01-15 03:05:06,903 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-15 03:05:06,904 - INFO - [+] Posting: post_jyotika_3278424833737571621
+2024-01-15 03:05:06,972 - INFO -    [-] Width: 1080 Height: 608 fps: 25.0 Duration: 30.08 Aspect ratio: 1.7763157894736843
+2024-01-15 03:05:06,981 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 03:05:07,065 - INFO -    [-] Start uploading
+2024-01-15 03:05:15,575 - INFO -    [-] Uploading finished
+2024-01-15 03:05:15,576 - INFO -    [-] Start playlist adding
+2024-01-15 03:05:25,576 - INFO -    [-] Creating playlist
+2024-01-15 03:05:25,578 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 03:05:25,791 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-15 03:05:25,792 - INFO - Refreshing access_token
+2024-01-15 03:05:26,959 - INFO -    [-] Created playlist
+2024-01-15 03:05:26,959 - INFO -    [-] Adding playlist in database
+2024-01-15 03:05:27,101 - INFO -    [-] Added playlist in database
+2024-01-15 03:05:37,102 - INFO -    [-] Adding playlist in Youtube
+2024-01-15 03:05:37,113 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 03:05:38,080 - INFO -    [-] Added playlist in Youtube
+2024-01-15 03:05:38,080 - INFO -    [-] Finished playlist adding
+2024-01-15 03:05:38,557 - INFO -    [-] Video uploaded successfully
+2024-01-15 04:05:06,931 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 04:05:06,993 - INFO - System: Windows
+2024-01-15 04:05:06,993 - INFO - Node Name: PJ_Laptop
+2024-01-15 04:05:06,993 - INFO - Release: 10
+2024-01-15 04:05:06,994 - INFO - Version: 10.0.19045
+2024-01-15 04:05:06,994 - INFO - Machine: AMD64
+2024-01-15 04:05:06,994 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-15 04:05:06,995 - INFO - [+] Posting: post_keerthysureshofficial_3279884844879667947
+2024-01-15 04:05:07,071 - INFO -    [-] Width: 1080 Height: 608 fps: 25.0 Duration: 68.56 Aspect ratio: 1.7763157894736843
+2024-01-15 04:05:07,080 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 04:05:07,167 - INFO -    [-] Start uploading
+2024-01-15 04:05:17,962 - INFO -    [-] Uploading finished
+2024-01-15 04:05:17,963 - INFO -    [-] Start playlist adding
+2024-01-15 04:05:27,963 - INFO -    [-] Adding playlist in Youtube
+2024-01-15 04:05:27,965 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 04:05:28,714 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-15 04:05:28,715 - INFO - Refreshing access_token
+2024-01-15 04:05:29,818 - INFO -    [-] Added playlist in Youtube
+2024-01-15 04:05:29,818 - INFO -    [-] Finished playlist adding
+2024-01-15 04:05:30,503 - INFO -    [-] Video uploaded successfully
+2024-01-15 05:05:18,417 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 05:05:18,526 - INFO - System: Windows
+2024-01-15 05:05:18,526 - INFO - Node Name: PJ_Laptop
+2024-01-15 05:05:18,526 - INFO - Release: 10
+2024-01-15 05:05:18,526 - INFO - Version: 10.0.19045
+2024-01-15 05:05:18,526 - INFO - Machine: AMD64
+2024-01-15 05:05:18,526 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-15 05:05:18,526 - INFO - [+] Posting: post_meenakshichaudhary006_3277926628074001246
+2024-01-15 05:05:20,073 - INFO -    [-] Width: 720 Height: 1280 fps: 23.976 Duration: 53.34501167834502 Aspect ratio: 0.5625
+2024-01-15 05:05:20,105 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 05:05:23,183 - INFO -    [-] Start uploading
+2024-01-15 05:05:35,278 - INFO -    [-] Uploading finished
+2024-01-15 05:05:35,309 - INFO -    [-] Start playlist adding
+2024-01-15 05:05:45,316 - INFO -    [-] Creating playlist
+2024-01-15 05:05:45,316 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 05:05:45,488 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-15 05:05:45,488 - INFO - Refreshing access_token
+2024-01-15 05:05:47,082 - INFO -    [-] Created playlist
+2024-01-15 05:05:47,082 - INFO -    [-] Adding playlist in database
+2024-01-15 05:05:47,238 - INFO -    [-] Added playlist in database
+2024-01-15 05:05:57,244 - INFO -    [-] Adding playlist in Youtube
+2024-01-15 05:05:57,244 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 05:05:58,041 - INFO -    [-] Added playlist in Youtube
+2024-01-15 05:05:58,041 - INFO -    [-] Finished playlist adding
+2024-01-15 05:05:58,666 - INFO -    [-] Video uploaded successfully
+2024-01-15 06:05:07,756 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 06:05:07,834 - INFO - System: Windows
+2024-01-15 06:05:07,834 - INFO - Node Name: PJ_Laptop
+2024-01-15 06:05:07,834 - INFO - Release: 10
+2024-01-15 06:05:07,834 - INFO - Version: 10.0.19045
+2024-01-15 06:05:07,834 - INFO - Machine: AMD64
+2024-01-15 06:05:07,834 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-15 06:05:07,834 - INFO - [+] Posting: post_shriya_saran1109_3279346570923581990
+2024-01-15 06:05:08,006 - INFO -    [-] Width: 1080 Height: 1920 fps: 25.0 Duration: 44.96 Aspect ratio: 0.5625
+2024-01-15 06:05:08,022 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 06:05:10,944 - INFO -    [-] Start uploading
+2024-01-15 06:05:20,612 - INFO -    [-] Uploading finished
+2024-01-15 06:05:20,612 - INFO -    [-] Start playlist adding
+2024-01-15 06:05:30,616 - INFO -    [-] Creating playlist
+2024-01-15 06:05:30,616 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 06:05:31,631 - INFO -    [-] Created playlist
+2024-01-15 06:05:31,631 - INFO -    [-] Adding playlist in database
+2024-01-15 06:05:31,788 - INFO -    [-] Added playlist in database
+2024-01-15 06:05:41,796 - INFO -    [-] Adding playlist in Youtube
+2024-01-15 06:05:41,796 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 06:05:42,562 - INFO -    [-] Added playlist in Youtube
+2024-01-15 06:05:42,562 - INFO -    [-] Finished playlist adding
+2024-01-15 06:05:43,155 - INFO -    [-] Video uploaded successfully
+2024-01-15 07:05:05,786 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 07:05:05,849 - INFO - System: Windows
+2024-01-15 07:05:05,849 - INFO - Node Name: PJ_Laptop
+2024-01-15 07:05:05,849 - INFO - Release: 10
+2024-01-15 07:05:05,849 - INFO - Version: 10.0.19045
+2024-01-15 07:05:05,849 - INFO - Machine: AMD64
+2024-01-15 07:05:05,849 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-15 07:05:05,849 - INFO - [+] Posting: post_shriya_saran1109_3279952814461918138
+2024-01-15 07:05:06,021 - INFO -    [-] Width: 1080 Height: 1920 fps: 29.996 Duration: 39.905320709427926 Aspect ratio: 0.5625
+2024-01-15 07:05:06,036 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 07:05:06,114 - INFO -    [-] Start uploading
+2024-01-15 07:05:06,380 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-15 07:05:06,380 - INFO - Refreshing access_token
+2024-01-15 07:05:18,273 - INFO -    [-] Uploading finished
+2024-01-15 07:05:18,273 - INFO -    [-] Start playlist adding
+2024-01-15 07:05:28,275 - INFO -    [-] Adding playlist in Youtube
+2024-01-15 07:05:28,275 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 07:05:29,994 - INFO -    [-] Added playlist in Youtube
+2024-01-15 07:05:29,994 - INFO -    [-] Finished playlist adding
+2024-01-15 07:05:30,556 - INFO -    [-] Video uploaded successfully
+2024-01-15 08:05:05,770 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 08:05:05,817 - INFO - System: Windows
+2024-01-15 08:05:05,817 - INFO - Node Name: PJ_Laptop
+2024-01-15 08:05:05,833 - INFO - Release: 10
+2024-01-15 08:05:05,833 - INFO - Version: 10.0.19045
+2024-01-15 08:05:05,833 - INFO - Machine: AMD64
+2024-01-15 08:05:05,833 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-15 08:05:05,833 - INFO - [+] Posting: post_shriya_saran1109_3280190544353610513
+2024-01-15 08:05:06,005 - INFO -    [-] Width: 1080 Height: 1920 fps: 29.996 Duration: 47.10628083744499 Aspect ratio: 0.5625
+2024-01-15 08:05:06,005 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 08:05:06,083 - INFO -    [-] Start uploading
+2024-01-15 08:05:06,911 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-15 08:05:06,911 - INFO - Refreshing access_token
+2024-01-15 08:05:20,885 - INFO -    [-] Uploading finished
+2024-01-15 08:05:20,885 - INFO -    [-] Start playlist adding
+2024-01-15 08:05:30,887 - INFO -    [-] Adding playlist in Youtube
+2024-01-15 08:05:30,887 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 08:05:32,262 - INFO -    [-] Added playlist in Youtube
+2024-01-15 08:05:32,262 - INFO -    [-] Finished playlist adding
+2024-01-15 08:05:32,887 - INFO -    [-] Video uploaded successfully
+2024-01-15 09:05:07,398 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 09:05:07,461 - INFO - System: Windows
+2024-01-15 09:05:07,461 - INFO - Node Name: PJ_Laptop
+2024-01-15 09:05:07,461 - INFO - Release: 10
+2024-01-15 09:05:07,461 - INFO - Version: 10.0.19045
+2024-01-15 09:05:07,461 - INFO - Machine: AMD64
+2024-01-15 09:05:07,461 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-15 09:05:07,461 - INFO - [+] Posting: post_trishakrishnan_3277973636711621330
+2024-01-15 09:05:07,539 - INFO -    [-] Width: 1080 Height: 608 fps: 25.0 Duration: 40.0 Aspect ratio: 1.7763157894736843
+2024-01-15 09:05:07,554 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 09:05:07,632 - INFO -    [-] Start uploading
+2024-01-15 09:05:07,914 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-15 09:05:07,914 - INFO - Refreshing access_token
+2024-01-15 09:05:18,222 - INFO -    [-] Uploading finished
+2024-01-15 09:05:18,222 - INFO -    [-] Start playlist adding
+2024-01-15 09:05:28,224 - INFO -    [-] Adding playlist in Youtube
+2024-01-15 09:05:28,224 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 09:05:29,005 - INFO -    [-] Added playlist in Youtube
+2024-01-15 09:05:29,005 - INFO -    [-] Finished playlist adding
+2024-01-15 09:05:29,849 - INFO -    [-] Video uploaded successfully
+2024-01-15 10:05:05,782 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 10:05:05,828 - INFO - System: Windows
+2024-01-15 10:05:05,828 - INFO - Node Name: PJ_Laptop
+2024-01-15 10:05:05,828 - INFO - Release: 10
+2024-01-15 10:05:05,828 - INFO - Version: 10.0.19045
+2024-01-15 10:05:05,828 - INFO - Machine: AMD64
+2024-01-15 10:05:05,828 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-15 10:07:00,809 - INFO - [+] Posting: post_archanachandhoke_3279021540572108611
+2024-01-15 10:07:00,841 - INFO -    [-] Width: 1080 Height: 1920 fps: 29.997 Duration: 28.969563623028968 Aspect ratio: 0.5625
+2024-01-15 10:07:00,841 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 10:07:00,919 - INFO -    [-] Start uploading
+2024-01-15 10:07:01,200 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-15 10:07:01,200 - INFO - Refreshing access_token
+2024-01-15 10:07:02,263 - ERROR -    [-] Error during video upload: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2024-01-15 10:07:02,263 - ERROR -    [-] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2024-01-15 11:05:05,870 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 11:05:05,917 - INFO - System: Windows
+2024-01-15 11:05:05,917 - INFO - Node Name: PJ_Laptop
+2024-01-15 11:05:05,917 - INFO - Release: 10
+2024-01-15 11:05:05,917 - INFO - Version: 10.0.19045
+2024-01-15 11:05:05,917 - INFO - Machine: AMD64
+2024-01-15 11:05:05,917 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-15 11:05:05,948 - INFO - [+] Posting: post_archanachandhoke_3279021540572108611
+2024-01-15 11:05:05,980 - INFO -    [-] Width: 1080 Height: 1920 fps: 29.997 Duration: 28.969563623028968 Aspect ratio: 0.5625
+2024-01-15 11:05:05,980 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 11:05:06,058 - INFO -    [-] Start uploading
+2024-01-15 11:05:07,620 - ERROR -    [-] Error during video upload: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2024-01-15 11:05:07,620 - ERROR -    [-] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2024-01-15 12:05:14,582 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 12:05:14,692 - INFO - System: Windows
+2024-01-15 12:05:14,692 - INFO - Node Name: PJ_Laptop
+2024-01-15 12:05:14,692 - INFO - Release: 10
+2024-01-15 12:05:14,692 - INFO - Version: 10.0.19045
+2024-01-15 12:05:14,707 - INFO - Machine: AMD64
+2024-01-15 12:05:14,707 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-15 12:05:14,707 - INFO - [+] Posting: post_archanachandhoke_3279021540572108611
+2024-01-15 12:05:16,145 - INFO -    [-] Width: 1080 Height: 1920 fps: 29.997 Duration: 28.969563623028968 Aspect ratio: 0.5625
+2024-01-15 12:05:16,145 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-15 12:05:16,301 - INFO -    [-] Start uploading
+2024-01-15 12:05:16,785 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-15 12:05:16,785 - INFO - Refreshing access_token
+2024-01-15 12:05:17,832 - ERROR -    [-] Error during video upload: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2024-01-15 12:05:17,832 - ERROR -    [-] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+>>>>>>> 6457b4473194242f0e5470580e53328ac30c2074
+2024-01-16 03:00:10,260 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-16 03:00:10,280 - INFO - System: Linux
+2024-01-16 03:00:10,280 - INFO - Node Name: vmi1472607.contaboserver.net
+2024-01-16 03:00:10,280 - INFO - Release: 5.15.0-91-generic
+2024-01-16 03:00:10,280 - INFO - Version: #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023
+2024-01-16 03:00:10,280 - INFO - Machine: x86_64
+2024-01-16 03:00:10,280 - INFO - Processor: x86_64
+2024-01-16 03:00:10,281 - INFO - [+] Posting: post_amalapaul.__3260798071024721123
+2024-01-16 03:00:10,393 - INFO -    [-] Width: 720 Height: 1280 fps: 30.0 Duration: 35.666666666666664 Aspect ratio: 0.5625
+2024-01-16 03:00:10,394 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-16 03:00:10,432 - INFO -    [-] Start uploading
+2024-01-16 03:00:10,589 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-16 03:00:10,589 - INFO - Refreshing access_token
+2024-01-16 03:00:17,776 - INFO -    [-] Uploading finished
+2024-01-16 03:00:17,777 - INFO -    [-] Start playlist adding
+2024-01-16 03:00:27,786 - INFO -    [-] Adding playlist in Youtube
+2024-01-16 03:00:27,787 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-16 03:00:28,392 - INFO -    [-] Added playlist in Youtube
+2024-01-16 03:00:28,392 - INFO -    [-] Finished playlist adding
+2024-01-16 03:00:29,292 - INFO -    [-] Video uploaded successfully
