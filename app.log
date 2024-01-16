@@ -3169,3 +3169,23 @@
 2024-01-16 03:00:28,392 - INFO -    [-] Added playlist in Youtube
 2024-01-16 03:00:28,392 - INFO -    [-] Finished playlist adding
 2024-01-16 03:00:29,292 - INFO -    [-] Video uploaded successfully
+2024-01-17 00:05:21,951 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-17 00:05:22,045 - INFO - System: Windows
+2024-01-17 00:05:22,045 - INFO - Node Name: PJ_Laptop
+2024-01-17 00:05:22,045 - INFO - Release: 10
+2024-01-17 00:05:22,045 - INFO - Version: 10.0.19045
+2024-01-17 00:05:22,045 - INFO - Machine: AMD64
+2024-01-17 00:05:22,045 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-17 00:05:22,061 - INFO - [+] Posting: post_archanachandhoke_3279021540572108611
+2024-01-17 00:05:23,842 - INFO -    [-] Width: 1080 Height: 1920 fps: 29.997 Duration: 28.969563623028968 Aspect ratio: 0.5625
+2024-01-17 00:05:23,858 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-17 00:05:26,795 - INFO -    [-] Start uploading
+2024-01-17 00:05:27,201 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-17 00:05:27,201 - INFO - Refreshing access_token
+2024-01-17 00:05:40,075 - INFO -    [-] Uploading finished
+2024-01-17 00:05:40,091 - INFO -    [-] Start playlist adding
+2024-01-17 00:05:50,103 - INFO -    [-] Adding playlist in Youtube
+2024-01-17 00:05:50,103 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-17 00:05:51,009 - INFO -    [-] Added playlist in Youtube
+2024-01-17 00:05:51,009 - INFO -    [-] Finished playlist adding
+2024-01-17 00:05:51,509 - INFO -    [-] Video uploaded successfully
