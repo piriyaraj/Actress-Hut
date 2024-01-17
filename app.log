@@ -3419,3 +3419,23 @@
 2024-01-17 12:05:08,546 - INFO - Refreshing access_token
 2024-01-17 12:05:10,108 - ERROR -    [-] Error during video upload: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
 2024-01-17 12:05:10,108 - ERROR -    [-] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2024-01-18 05:05:19,059 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-18 05:05:19,184 - INFO - System: Windows
+2024-01-18 05:05:19,184 - INFO - Node Name: PJ_Laptop
+2024-01-18 05:05:19,184 - INFO - Release: 10
+2024-01-18 05:05:19,184 - INFO - Version: 10.0.19045
+2024-01-18 05:05:19,184 - INFO - Machine: AMD64
+2024-01-18 05:05:19,184 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-18 05:05:19,184 - INFO - [+] Posting: post_kajalaggarwalofficial_3267082277360032853
+2024-01-18 05:05:20,559 - INFO -    [-] Width: 1080 Height: 1920 fps: 30.0 Duration: 38.06666666666667 Aspect ratio: 0.5625
+2024-01-18 05:05:20,574 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-18 05:05:23,652 - INFO -    [-] Start uploading
+2024-01-18 05:05:24,059 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-18 05:05:24,059 - INFO - Refreshing access_token
+2024-01-18 05:05:34,753 - INFO -    [-] Uploading finished
+2024-01-18 05:05:34,816 - INFO -    [-] Start playlist adding
+2024-01-18 05:05:44,824 - INFO -    [-] Adding playlist in Youtube
+2024-01-18 05:05:44,824 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-18 05:05:45,621 - INFO -    [-] Added playlist in Youtube
+2024-01-18 05:05:45,621 - INFO -    [-] Finished playlist adding
+2024-01-18 05:05:46,324 - INFO -    [-] Video uploaded successfully
