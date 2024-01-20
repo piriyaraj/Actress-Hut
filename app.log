@@ -3923,3 +3923,23 @@
 2024-01-20 06:05:28,239 - INFO -    [-] Added playlist in Youtube
 2024-01-20 06:05:28,239 - INFO -    [-] Finished playlist adding
 2024-01-20 06:05:28,895 - INFO -    [-] Video uploaded successfully
+2024-01-20 07:05:18,421 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-20 07:05:18,531 - INFO - System: Windows
+2024-01-20 07:05:18,531 - INFO - Node Name: PJ_Laptop
+2024-01-20 07:05:18,531 - INFO - Release: 10
+2024-01-20 07:05:18,531 - INFO - Version: 10.0.19045
+2024-01-20 07:05:18,531 - INFO - Machine: AMD64
+2024-01-20 07:05:18,531 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-20 07:05:18,531 - INFO - [+] Posting: post_keerthysureshofficial_3280907235302900265
+2024-01-20 07:05:19,953 - INFO -    [-] Width: 1080 Height: 608 fps: 24.0 Duration: 96.33333333333333 Aspect ratio: 1.7763157894736843
+2024-01-20 07:05:19,968 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-20 07:05:22,921 - INFO -    [-] Start uploading
+2024-01-20 07:05:35,146 - INFO -    [-] Uploading finished
+2024-01-20 07:05:35,209 - INFO -    [-] Start playlist adding
+2024-01-20 07:05:45,213 - INFO -    [-] Adding playlist in Youtube
+2024-01-20 07:05:45,213 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-20 07:05:45,417 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-20 07:05:45,417 - INFO - Refreshing access_token
+2024-01-20 07:05:46,323 - INFO -    [-] Added playlist in Youtube
+2024-01-20 07:05:46,323 - INFO -    [-] Finished playlist adding
+2024-01-20 07:05:47,213 - INFO -    [-] Video uploaded successfully
