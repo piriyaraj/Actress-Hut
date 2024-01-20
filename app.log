@@ -3943,3 +3943,26 @@
 2024-01-20 07:05:46,323 - INFO -    [-] Added playlist in Youtube
 2024-01-20 07:05:46,323 - INFO -    [-] Finished playlist adding
 2024-01-20 07:05:47,213 - INFO -    [-] Video uploaded successfully
+2024-01-20 08:05:07,478 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-20 08:05:07,541 - INFO - System: Windows
+2024-01-20 08:05:07,541 - INFO - Node Name: PJ_Laptop
+2024-01-20 08:05:07,541 - INFO - Release: 10
+2024-01-20 08:05:07,541 - INFO - Version: 10.0.19045
+2024-01-20 08:05:07,541 - INFO - Machine: AMD64
+2024-01-20 08:05:07,541 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-20 08:05:07,541 - INFO - [+] Posting: post_kriti.kharbanda_3261849101622768825
+2024-01-20 08:05:07,681 - INFO -    [-] Width: 1080 Height: 1920 fps: 30.0 Duration: 20.8 Aspect ratio: 0.5625
+2024-01-20 08:05:07,697 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-20 08:05:10,306 - INFO -    [-] Start uploading
+2024-01-20 08:05:20,032 - INFO -    [-] Uploading finished
+2024-01-20 08:05:20,032 - INFO -    [-] Start playlist adding
+2024-01-20 08:05:30,035 - INFO -    [-] Creating playlist
+2024-01-20 08:05:30,035 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-20 08:05:31,081 - INFO -    [-] Created playlist
+2024-01-20 08:05:31,081 - INFO -    [-] Adding playlist in database
+2024-01-20 08:05:31,238 - INFO -    [-] Added playlist in database
+2024-01-20 08:05:41,244 - INFO -    [-] Adding playlist in Youtube
+2024-01-20 08:05:41,244 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-20 08:05:42,010 - INFO -    [-] Added playlist in Youtube
+2024-01-20 08:05:42,010 - INFO -    [-] Finished playlist adding
+2024-01-20 08:05:42,979 - INFO -    [-] Video uploaded successfully
