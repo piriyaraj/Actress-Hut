@@ -3986,3 +3986,28 @@
 2024-01-20 09:05:28,339 - INFO -    [-] Added playlist in Youtube
 2024-01-20 09:05:28,339 - INFO -    [-] Finished playlist adding
 2024-01-20 09:05:28,854 - INFO -    [-] Video uploaded successfully
+2024-01-20 10:05:05,869 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-20 10:05:05,962 - INFO - System: Windows
+2024-01-20 10:05:05,962 - INFO - Node Name: PJ_Laptop
+2024-01-20 10:05:05,962 - INFO - Release: 10
+2024-01-20 10:05:05,962 - INFO - Version: 10.0.19045
+2024-01-20 10:05:05,962 - INFO - Machine: AMD64
+2024-01-20 10:05:05,962 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-20 10:05:05,962 - INFO - [+] Posting: post_meet_miya_3270487138806212789
+2024-01-20 10:05:06,119 - INFO -    [-] Width: 1080 Height: 1920 fps: 30.0 Duration: 90.0 Aspect ratio: 0.5625
+2024-01-20 10:05:06,134 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-20 10:05:06,212 - INFO -    [-] Start uploading
+2024-01-20 10:05:16,825 - INFO -    [-] Uploading finished
+2024-01-20 10:05:16,825 - INFO -    [-] Start playlist adding
+2024-01-20 10:05:26,827 - INFO -    [-] Creating playlist
+2024-01-20 10:05:26,827 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-20 10:05:26,999 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-20 10:05:26,999 - INFO - Refreshing access_token
+2024-01-20 10:05:27,952 - INFO -    [-] Created playlist
+2024-01-20 10:05:27,952 - INFO -    [-] Adding playlist in database
+2024-01-20 10:05:28,092 - INFO -    [-] Added playlist in database
+2024-01-20 10:05:38,100 - INFO -    [-] Adding playlist in Youtube
+2024-01-20 10:05:38,100 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-20 10:05:38,818 - INFO -    [-] Added playlist in Youtube
+2024-01-20 10:05:38,818 - INFO -    [-] Finished playlist adding
+2024-01-20 10:05:39,475 - INFO -    [-] Video uploaded successfully
