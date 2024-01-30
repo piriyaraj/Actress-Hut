@@ -4212,3 +4212,23 @@
 2024-01-30 07:05:44,513 - INFO -    [-] Added playlist in Youtube
 2024-01-30 07:05:44,513 - INFO -    [-] Finished playlist adding
 2024-01-30 07:05:45,123 - INFO -    [-] Video uploaded successfully
+2024-01-30 08:05:05,782 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-30 08:05:05,829 - INFO - System: Windows
+2024-01-30 08:05:05,829 - INFO - Node Name: PJ_Laptop
+2024-01-30 08:05:05,829 - INFO - Release: 10
+2024-01-30 08:05:05,829 - INFO - Version: 10.0.19045
+2024-01-30 08:05:05,829 - INFO - Machine: AMD64
+2024-01-30 08:05:05,829 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-30 08:05:05,829 - INFO - [+] Posting: post_reginaacassandraa_3279141488958830394
+2024-01-30 08:05:06,672 - INFO -    [-] Width: 1080 Height: 1920 fps: 29.982 Duration: 5.536655326529251 Aspect ratio: 0.5625
+2024-01-30 08:05:06,672 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-30 08:05:06,751 - INFO -    [-] Start uploading
+2024-01-30 08:05:16,191 - INFO -    [-] Uploading finished
+2024-01-30 08:05:16,191 - INFO -    [-] Start playlist adding
+2024-01-30 08:05:26,193 - INFO -    [-] Adding playlist in Youtube
+2024-01-30 08:05:26,193 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-30 08:05:26,381 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-30 08:05:26,396 - INFO - Refreshing access_token
+2024-01-30 08:05:27,334 - INFO -    [-] Added playlist in Youtube
+2024-01-30 08:05:27,334 - INFO -    [-] Finished playlist adding
+2024-01-30 08:05:28,162 - INFO -    [-] Video uploaded successfully
