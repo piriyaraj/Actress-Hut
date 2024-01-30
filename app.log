@@ -4300,3 +4300,18 @@
 2024-01-30 12:05:06,140 - INFO - Refreshing access_token
 2024-01-30 12:05:07,186 - ERROR -    [-] Error during video upload: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
 2024-01-30 12:05:07,186 - ERROR -    [-] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2024-01-31 00:05:14,939 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-31 00:05:15,079 - INFO - System: Windows
+2024-01-31 00:05:15,079 - INFO - Node Name: PJ_Laptop
+2024-01-31 00:05:15,079 - INFO - Release: 10
+2024-01-31 00:05:15,079 - INFO - Version: 10.0.19045
+2024-01-31 00:05:15,079 - INFO - Machine: AMD64
+2024-01-31 00:05:15,079 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-31 00:05:15,079 - INFO - [+] Posting: post_shalzp_3260577345038408303
+2024-01-31 00:05:16,439 - INFO -    [-] Width: 994 Height: 1768 fps: 30.0 Duration: 18.4 Aspect ratio: 0.5622171945701357
+2024-01-31 00:05:16,470 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-31 00:05:18,064 - INFO -    [-] Start uploading
+2024-01-31 00:05:18,470 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-01-31 00:05:18,517 - INFO - Refreshing access_token
+2024-01-31 00:05:19,517 - ERROR -    [-] Error during video upload: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2024-01-31 00:05:19,517 - ERROR -    [-] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
