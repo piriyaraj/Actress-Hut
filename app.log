@@ -4523,3 +4523,16 @@
 2024-01-31 10:05:39,888 - INFO -    [-] Added playlist in Youtube
 2024-01-31 10:05:39,888 - INFO -    [-] Finished playlist adding
 2024-01-31 10:05:40,857 - INFO -    [-] Video uploaded successfully
+2024-01-31 11:05:05,809 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-31 11:05:05,856 - INFO - System: Windows
+2024-01-31 11:05:05,856 - INFO - Node Name: PJ_Laptop
+2024-01-31 11:05:05,856 - INFO - Release: 10
+2024-01-31 11:05:05,856 - INFO - Version: 10.0.19045
+2024-01-31 11:05:05,856 - INFO - Machine: AMD64
+2024-01-31 11:05:05,856 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-01-31 11:05:05,856 - INFO - [+] Posting: post_shriya_saran1109_3279952814461918138
+2024-01-31 11:05:05,965 - INFO -    [-] Width: 1080 Height: 1920 fps: 29.996 Duration: 39.905320709427926 Aspect ratio: 0.5625
+2024-01-31 11:05:05,965 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-01-31 11:05:06,043 - INFO -    [-] Start uploading
+2024-01-31 11:05:07,059 - ERROR -    [-] Error during video upload: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2024-01-31 11:05:07,059 - ERROR -    [-] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
