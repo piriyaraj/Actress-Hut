@@ -4823,3 +4823,23 @@
 2024-02-02 00:05:17,480 - INFO - Refreshing access_token
 2024-02-02 00:05:18,543 - ERROR -    [-] Error during video upload: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
 2024-02-02 00:05:18,543 - ERROR -    [-] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2024-02-02 01:05:13,385 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-02 01:05:13,494 - INFO - System: Windows
+2024-02-02 01:05:13,494 - INFO - Node Name: PJ_Laptop
+2024-02-02 01:05:13,494 - INFO - Release: 10
+2024-02-02 01:05:13,494 - INFO - Version: 10.0.19045
+2024-02-02 01:05:13,494 - INFO - Machine: AMD64
+2024-02-02 01:05:13,494 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-02-02 01:05:13,494 - INFO - [+] Posting: post_anupamaparameswaran96_3277753531782069750
+2024-02-02 01:05:14,604 - INFO -    [-] Width: 1080 Height: 1920 fps: 24.0 Duration: 40.75 Aspect ratio: 0.5625
+2024-02-02 01:05:14,604 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-02 01:05:14,697 - INFO -    [-] Start uploading
+2024-02-02 01:05:28,897 - INFO -    [-] Uploading finished
+2024-02-02 01:05:28,960 - INFO -    [-] Start playlist adding
+2024-02-02 01:05:39,029 - INFO -    [-] Adding playlist in Youtube
+2024-02-02 01:05:39,029 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-02 01:05:39,264 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-02-02 01:05:39,264 - INFO - Refreshing access_token
+2024-02-02 01:05:40,260 - INFO -    [-] Added playlist in Youtube
+2024-02-02 01:05:40,260 - INFO -    [-] Finished playlist adding
+2024-02-02 01:05:40,906 - INFO -    [-] Video uploaded successfully
