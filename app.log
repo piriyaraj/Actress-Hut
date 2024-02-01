@@ -4795,3 +4795,16 @@
 2024-02-01 11:05:18,658 - INFO - Refreshing access_token
 2024-02-01 11:05:19,721 - ERROR -    [-] Error during video upload: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
 2024-02-01 11:05:19,722 - ERROR -    [-] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2024-02-01 12:05:12,492 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-01 12:05:12,599 - INFO - System: Windows
+2024-02-01 12:05:12,599 - INFO - Node Name: PJ_Laptop
+2024-02-01 12:05:12,599 - INFO - Release: 10
+2024-02-01 12:05:12,599 - INFO - Version: 10.0.19045
+2024-02-01 12:05:12,599 - INFO - Machine: AMD64
+2024-02-01 12:05:12,599 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-02-01 12:05:12,600 - INFO - [+] Posting: post_anupamaparameswaran96_3277753531782069750
+2024-02-01 12:05:13,936 - INFO -    [-] Width: 1080 Height: 1920 fps: 24.0 Duration: 40.75 Aspect ratio: 0.5625
+2024-02-01 12:05:13,938 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-01 12:05:14,032 - INFO -    [-] Start uploading
+2024-02-01 12:05:15,135 - ERROR -    [-] Error during video upload: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2024-02-01 12:05:15,135 - ERROR -    [-] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
