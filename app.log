@@ -4949,3 +4949,24 @@
 2024-02-02 06:05:40,905 - INFO -    [-] Added playlist in Youtube
 2024-02-02 06:05:40,905 - INFO -    [-] Finished playlist adding
 2024-02-02 06:05:42,233 - INFO -    [-] Video uploaded successfully
+2024-02-02 07:05:16,811 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-02 07:05:16,920 - INFO - System: Windows
+2024-02-02 07:05:16,920 - INFO - Node Name: PJ_Laptop
+2024-02-02 07:05:16,920 - INFO - Release: 10
+2024-02-02 07:05:16,920 - INFO - Version: 10.0.19045
+2024-02-02 07:05:16,920 - INFO - Machine: AMD64
+2024-02-02 07:05:16,920 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-02-02 07:05:16,920 - INFO - [+] Posting: post_geneliad_3269073129718617595
+2024-02-02 07:05:18,232 - INFO -    [-] Width: 1080 Height: 608 fps: 24.011 Duration: 96.58073383032777 Aspect ratio: 1.7763157894736843
+2024-02-02 07:05:18,248 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-02 07:05:18,420 - INFO -    [-] Start uploading
+2024-02-02 07:05:18,826 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-02-02 07:05:18,826 - INFO - Refreshing access_token
+2024-02-02 07:05:31,096 - INFO -    [-] Uploading finished
+2024-02-02 07:05:31,127 - INFO -    [-] Start playlist adding
+2024-02-02 07:05:41,131 - INFO -    [-] Adding playlist in Youtube
+2024-02-02 07:05:41,131 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-02 07:05:41,553 - WARNING - Encountered 403 Forbidden with reason "playlistItemsNotAccessible"
+2024-02-02 07:05:41,553 - INFO -    [-] Added playlist in Youtube
+2024-02-02 07:05:41,553 - INFO -    [-] Finished playlist adding
+2024-02-02 07:05:42,147 - INFO -    [-] Video uploaded successfully
