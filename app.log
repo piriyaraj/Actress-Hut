@@ -5074,3 +5074,24 @@
 2024-02-03 00:05:21,502 - INFO - Refreshing access_token
 2024-02-03 00:05:22,718 - ERROR -    [-] Error during video upload: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
 2024-02-03 00:05:22,720 - ERROR -    [-] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2024-02-03 01:05:13,927 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-03 01:05:14,033 - INFO - System: Windows
+2024-02-03 01:05:14,033 - INFO - Node Name: PJ_Laptop
+2024-02-03 01:05:14,033 - INFO - Release: 10
+2024-02-03 01:05:14,033 - INFO - Version: 10.0.19045
+2024-02-03 01:05:14,033 - INFO - Machine: AMD64
+2024-02-03 01:05:14,033 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-02-03 01:05:14,034 - INFO - [+] Posting: post_geneliad_3288731209553171582
+2024-02-03 01:05:15,158 - INFO -    [-] Width: 1080 Height: 1920 fps: 24.052 Duration: 38.749376351238986 Aspect ratio: 0.5625
+2024-02-03 01:05:15,170 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-03 01:05:15,263 - INFO -    [-] Start uploading
+2024-02-03 01:05:25,411 - INFO -    [-] Uploading finished
+2024-02-03 01:05:25,485 - INFO -    [-] Start playlist adding
+2024-02-03 01:05:35,486 - INFO -    [-] Adding playlist in Youtube
+2024-02-03 01:05:35,488 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-03 01:05:35,706 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-02-03 01:05:35,707 - INFO - Refreshing access_token
+2024-02-03 01:05:36,277 - WARNING - Encountered 403 Forbidden with reason "playlistItemsNotAccessible"
+2024-02-03 01:05:36,278 - INFO -    [-] Added playlist in Youtube
+2024-02-03 01:05:36,278 - INFO -    [-] Finished playlist adding
+2024-02-03 01:05:36,792 - INFO -    [-] Video uploaded successfully
