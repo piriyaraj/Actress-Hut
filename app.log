@@ -5183,3 +5183,23 @@
 2024-02-03 05:05:34,910 - INFO -    [-] Added playlist in Youtube
 2024-02-03 05:05:34,910 - INFO -    [-] Finished playlist adding
 2024-02-03 05:05:35,580 - INFO -    [-] Video uploaded successfully
+2024-02-03 06:05:06,174 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-03 06:05:06,255 - INFO - System: Windows
+2024-02-03 06:05:06,255 - INFO - Node Name: PJ_Laptop
+2024-02-03 06:05:06,255 - INFO - Release: 10
+2024-02-03 06:05:06,255 - INFO - Version: 10.0.19045
+2024-02-03 06:05:06,255 - INFO - Machine: AMD64
+2024-02-03 06:05:06,256 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-02-03 06:05:06,258 - INFO - [+] Posting: post_jyotika_3290982203416774594
+2024-02-03 06:05:06,350 - INFO -    [-] Width: 720 Height: 1280 fps: 29.601 Duration: 52.63335698118307 Aspect ratio: 0.5625
+2024-02-03 06:05:06,354 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-03 06:05:06,452 - INFO -    [-] Start uploading
+2024-02-03 06:05:16,416 - INFO -    [-] Uploading finished
+2024-02-03 06:05:16,418 - INFO -    [-] Start playlist adding
+2024-02-03 06:05:26,420 - INFO -    [-] Adding playlist in Youtube
+2024-02-03 06:05:26,423 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-03 06:05:26,602 - INFO - Refreshing due to a 401 (attempt 1/2)
+2024-02-03 06:05:26,603 - INFO - Refreshing access_token
+2024-02-03 06:05:27,569 - INFO -    [-] Added playlist in Youtube
+2024-02-03 06:05:27,570 - INFO -    [-] Finished playlist adding
+2024-02-03 06:05:28,213 - INFO -    [-] Video uploaded successfully
