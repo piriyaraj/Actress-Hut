@@ -5636,3 +5636,21 @@
 2024-02-09 04:05:47,768 - INFO -    [-] Added playlist in Youtube
 2024-02-09 04:05:47,768 - INFO -    [-] Finished playlist adding
 2024-02-09 04:05:48,439 - INFO -    [-] Video uploaded successfully
+2024-02-09 05:05:14,213 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-09 05:05:14,345 - INFO - System: Windows
+2024-02-09 05:05:14,345 - INFO - Node Name: PJ_Laptop
+2024-02-09 05:05:14,345 - INFO - Release: 10
+2024-02-09 05:05:14,345 - INFO - Version: 10.0.19045
+2024-02-09 05:05:14,345 - INFO - Machine: AMD64
+2024-02-09 05:05:14,345 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-02-09 05:05:14,345 - INFO - [+] Posting: post_rashmika_mandanna_3283517443743828418
+2024-02-09 05:05:15,665 - INFO -    [-] Width: 1080 Height: 1920 fps: 30.0 Duration: 30.0 Aspect ratio: 0.5625
+2024-02-09 05:05:15,703 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-09 05:05:15,819 - INFO -    [-] Start uploading
+2024-02-09 05:05:26,452 - INFO -    [-] Uploading finished
+2024-02-09 05:05:26,498 - INFO -    [-] Start playlist adding
+2024-02-09 05:05:36,502 - INFO -    [-] Adding playlist in Youtube
+2024-02-09 05:05:36,502 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-09 05:05:37,280 - INFO -    [-] Added playlist in Youtube
+2024-02-09 05:05:37,280 - INFO -    [-] Finished playlist adding
+2024-02-09 05:05:37,929 - INFO -    [-] Video uploaded successfully
