@@ -5879,3 +5879,12 @@
 2024-02-11 04:05:06,639 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
 2024-02-11 04:05:06,639 - INFO - [+] Posting: post_reginaacassandraa_3286253280214132085
 2024-02-11 04:05:06,670 - INFO -    [-] Width: 720 Height: 1280 fps: 30.0 Duration: 5.4 Aspect ratio: 0.5625
+2024-02-11 05:05:06,349 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-02-11 05:05:06,412 - INFO - System: Windows
+2024-02-11 05:05:06,412 - INFO - Node Name: PJ_Laptop
+2024-02-11 05:05:06,412 - INFO - Release: 10
+2024-02-11 05:05:06,412 - INFO - Version: 10.0.19045
+2024-02-11 05:05:06,412 - INFO - Machine: AMD64
+2024-02-11 05:05:06,412 - INFO - Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+2024-02-11 05:05:06,412 - INFO - [+] Posting: post_reginaacassandraa_3286253280214132085
+2024-02-11 05:05:06,427 - INFO -    [-] Width: 720 Height: 1280 fps: 30.0 Duration: 5.4 Aspect ratio: 0.5625
